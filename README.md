@@ -21,7 +21,7 @@
 
 **Claude Fable 5.2 video prompts: 22 real prompts with the videos they made, from WebGL sliders and Three.js scenes to Blender anime and LilyPond music.**
 
-Claude Fable 5.2 video prompts collected from creators in the first days after launch. Every card has the exact prompt the creator posted and the video it produced, so you can copy one and compare.
+Claude Fable 5.2 video prompts collected from creators in the first days after launch. Every card has the exact prompt the creator posted and the video it produced, so you can copy one and compare. Every result video plays right here on GitHub.
 
 Search and filter them on [apiko.app/claude-fable-5-2-video-prompts](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=intro).
 
@@ -119,7 +119,7 @@ by [@kaif9998](https://x.com/kaif9998) · 15s · 16:9 · **[▶ Run on APIKO](ht
 
 Run in Claude Code: one line asks for a 15-second farewell video, a second line asks to make it a showreel.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-01#motion-graphics-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-01.webp" width="560" alt="Two short prompts for a goodbye showreel to Opus 5.5 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/9e5b1c2c-c8a4-42e2-8e4a-b09d24ed1cc7
 
 **Prompt:**
 
@@ -137,7 +137,7 @@ by [@ici_dab](https://x.com/ici_dab) · 68s · 1:1 · **[▶ Run on APIKO](https
 
 An open brief: make the most impressive shareable thing you can. The result is an interactive particle piece with its own music.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-02#motion-graphics-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-02.webp" width="560" alt="Particle letters that become a galaxy, a helix and your name – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/87dcae6e-5db0-493b-af51-7728f885e228
 
 **Prompt:**
 
@@ -152,7 +152,7 @@ by [@N1njaCodex](https://x.com/N1njaCodex) · 11s · 16:9 · **[▶ Run on APIKO
 
 A long spec for a WebGL2 and Web Audio switch with no libraries. The author reports $7.48 for the run.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-03#motion-graphics-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-03.webp" width="560" alt="A volume slider that dives into an underwater world – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/881af4cb-a87b-4dc0-a277-595d823729f8
 
 **Prompt:**
 
@@ -256,7 +256,7 @@ by [@vib3coded](https://x.com/vib3coded) · 13s · 16:9 · **[▶ Run on APIKO](
 
 Same material-study format: one self-contained page in WebGL2 and Web Audio. The author reports 10 minutes and $8.43.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-04#motion-graphics-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-04.webp" width="560" alt="A night-to-morning slider with a cozy room inside – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/43693a77-956f-4518-87de-c64e9c99b327
 
 **Prompt:**
 
@@ -334,7 +334,7 @@ by [@hello_amani](https://x.com/hello_amani) · 36s · 1:1 · **[▶ Run on APIK
 
 One sentence: reveal my logo in 3D with chromatic metal, grids and many iterations.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-05#motion-graphics-05"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-05.webp" width="560" alt="A chrome-metal 3D logo reveal – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/a73ee82d-e624-4214-822d-db0306296688
 
 **Prompt:**
 
@@ -350,7 +350,7 @@ by [@himanshutwtxs](https://x.com/himanshutwtxs) · 15s · 16:9 · **[▶ Run on
 
 The same sentence many people ran on Opus 5.5, now on Fable 5.2: easing, type, depth and timing in one reel.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-06#motion-graphics-06"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-06.webp" width="560" alt="The one-line 15-second motion designer showreel – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/e708f162-826c-4b84-86d5-3ca6a64080d3
 
 **Prompt:**
 
@@ -370,7 +370,7 @@ by [@grafikcem](https://x.com/grafikcem) · 60s · 16:9 · **[▶ Run on APIKO](
 
 Turkish prompt: on launch day, use Opus 5.5 subagents to make a 60-second animated film about Fable 5.2.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-01#product-launch-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-01.webp" width="560" alt="A 60-second launch film made with Opus 5.5 subagents – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/5c70cca9-79e2-41f0-85a5-cc7a75118cd4
 
 **Prompt:**
 
@@ -385,7 +385,7 @@ by [@furkancavlakcom](https://x.com/furkancavlakcom) · 74s · 16:9 · **[▶ Ru
 
 One Turkish sentence. The author reports 57 minutes, about $21 at API prices, 1,702 lines of Python, 2,220 frames and synthesized music.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-02#product-launch-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-02.webp" width="560" alt="&quot;Make your own launch video. Code only.&quot; – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/73630cf7-74c1-40a2-8661-01130ec49748
 
 **Prompt:**
 
@@ -400,7 +400,7 @@ by [@midudev](https://x.com/midudev) · 32s · 9:16 · **[▶ Run on APIKO](http
 
 Spanish prompt run inside the author's project: sell it with sound and bold animation, medium effort. About 10 minutes.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-03#product-launch-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-03.webp" width="320" alt="A social trailer for a course, built with HyperFrames – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/8066c1f5-8a96-4b12-8810-a3c7dd64175d
 
 **Prompt:**
 
@@ -417,7 +417,7 @@ by [@czzzzzzJ_](https://x.com/czzzzzzJ_) · 298s · 16:9 · **[▶ Run on APIKO]
 
 Chinese prompt run in the site's project folder: research the business, ask one round of questions, then deliver an Apple-keynote style film.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-04#product-launch-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-04.webp" width="560" alt="A keynote-style promo film for a knowledge site, one prompt – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/591923c2-ce88-4a12-a29b-0d834d5d0200
 
 **Prompt:**
 
@@ -437,7 +437,7 @@ by [@0kncn](https://x.com/0kncn) · 90s · 16:9 · **[▶ Run on APIKO](https://
 
 A long spec: build everything in Blender from Python, render in Eevee, ink and paint each frame, and synthesize the music. 90 seconds.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-01#short-film-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-01.webp" width="560" alt="A steam locomotive that turns into a robot, as 2D anime – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/0190d27a-1663-40f4-bf7a-8bef95c16d03
 
 **Prompt:**
 
@@ -487,7 +487,7 @@ by [@danteeonsol](https://x.com/danteeonsol) · 30s · 16:9 · **[▶ Run on API
 
 One sentence. The author says it was written in three.js and Remotion with no imported models, textures or stock audio.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-02#short-film-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-02.webp" width="560" alt="A UFO lands at Area 51 and greets humans – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/c7cfb08e-732f-49b6-a675-aaf2b634ff31
 
 **Prompt:**
 
@@ -502,7 +502,7 @@ by [@other__reality](https://x.com/other__reality) · 26s · 16:9 · **[▶ Run 
 
 Run at high effort on top of the author's existing animation base, so you need a similar starting project.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-03#short-film-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-03.webp" width="560" alt="A little wizard creates and releases Fable 5.2 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/92969c9a-3481-4f59-a2e6-e58f096fa4d4
 
 **Prompt:**
 
@@ -517,7 +517,7 @@ by [@wshuyi](https://x.com/wshuyi) · 28s · 16:9 · **[▶ Run on APIKO](https:
 
 Chinese prompt: no skills, pure code animation, program your own sound effects, under 30 seconds.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-04#short-film-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-04.webp" width="560" alt="A sabertooth cat hunts a bison, code only – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/768c8130-3fc8-40c6-843d-e396e450a89d
 
 **Prompt:**
 
@@ -537,7 +537,7 @@ by [@kplikethebird](https://x.com/kplikethebird) · 30s · 16:9 · **[▶ Run on
 
 One sentence asking for a historically accurate city during one week in its history. The tour shows the Temple, gardens and palaces.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=3d-scenes-01#3d-scenes-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/3d-scenes-01.webp" width="560" alt="An immersive 3D model of ancient Jerusalem in Blender – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/64ace52b-eec2-415d-a55a-5ad13bff8c78
 
 **Prompt:**
 
@@ -552,7 +552,7 @@ by [@RezAIT00](https://x.com/RezAIT00) · 14s · 16:9 · **[▶ Run on APIKO](ht
 
 A detailed three.js spec with renderAt(t) so every frame can be captured: the Eiffel Tower under construction on an island.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=3d-scenes-02#3d-scenes-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/3d-scenes-02.webp" width="560" alt="A floating voxel Paris of 1888, rendered frame by frame – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/af1de0bb-80d3-4868-923a-63470c7325a5
 
 **Prompt:**
 
@@ -574,7 +574,7 @@ by [@joshvlc](https://x.com/joshvlc) · 19s · 21:9 · **[▶ Run on APIKO](http
 
 A plain list of rules and controls: dribble, jump shot, dunk, steal, pass, two teams. Built in one shot.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=games-01#games-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/games-01.webp" width="560" alt="A one-shot 3D basketball game in Three.js – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/ed34dbec-020c-4dde-81bd-f09356c3a981
 
 **Prompt:**
 
@@ -597,7 +597,7 @@ by [@ericmaskfr](https://x.com/ericmaskfr) · 135s · 16:9 · **[▶ Run on APIK
 
 A tight loop in one prompt: walk, fight, steal a car, get chased, earn and spend. The author reports 2 hours 14 minutes.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=games-02#games-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/games-02.webp" width="560" alt="An open-world crime game in an 80s Miami-style city – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/5e4fe8bc-b76c-4525-8846-be7b9bd39a87
 
 **Prompt:**
 
@@ -617,7 +617,7 @@ by [@aug5thmusic](https://x.com/aug5thmusic) · 45s · 16:9 · **[▶ Run on API
 
 Ask for only the code block at Extra High effort. The author, who runs a Bach benchmark, calls it one of the best chorales so far.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-01#music-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-01.webp" width="560" alt="A Bach-style chorale in G minor, written in LilyPond – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/c9cabac3-605e-4c51-9a50-7d31d7e0789c
 
 **Prompt:**
 
@@ -632,7 +632,7 @@ by [@takamasa045](https://x.com/takamasa045) · 53s · 16:9 · **[▶ Run on API
 
 Japanese prompt: show off as a motion designer, about one minute. The author supplied the song and lyrics and compared it with Opus 5.5.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-02#music-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-02.webp" width="560" alt="A Japanese lyric motion video from a song and its lyrics – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/b6b6ebd6-6efd-42a5-82b4-d3d415c69ccc
 
 **Prompt:**
 
@@ -647,7 +647,7 @@ by [@tankazunori0914](https://x.com/tankazunori0914) · 64s · 16:9 · **[▶ Ru
 
 Japanese prompt: zero assets, code only. The author reports 1,076 lines, pictures from shaders and music synthesized in code.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-03#music-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-03.webp" width="560" alt="From a point to a world: a shader film with a coded song – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/47266d4f-17ad-4213-b4c5-f01c8cccb0c1
 
 **Prompt:**
 
@@ -663,7 +663,7 @@ by [@aug5thmusic](https://x.com/aug5thmusic) · 125s · 16:9 · **[▶ Run on AP
 
 One sentence at Extra High effort. The video plays the engraved score with the rendered audio.
 
-<a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-04#music-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-04.webp" width="560" alt="A complete organ fugue in the style of Bach, in LilyPond – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/c3885427-fd10-4e67-915a-7639895c6f0f
 
 **Prompt:**
 

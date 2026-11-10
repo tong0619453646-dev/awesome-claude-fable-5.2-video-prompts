@@ -21,7 +21,7 @@
 
 **Claude Fable 5.2 视频提示词：22 条真实提示词和它们做出的视频，从 WebGL 滑块、Three.js 场景到 Blender 动画和 LilyPond 音乐。**
 
-Claude Fable 5.2 视频提示词，收集自发布后头几天创作者公开的作品。每张卡片都有作者原文提示词和它做出的视频，可以直接复制对照。
+Claude Fable 5.2 视频提示词，收集自发布后头几天创作者公开的作品。每张卡片都有作者原文提示词和它做出的视频，可以直接复制对照。 所有成片都能在 GitHub 页面上直接播放。
 
 在线搜索和筛选： [apiko.app/claude-fable-5-2-video-prompts](https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=intro).
 
@@ -119,7 +119,7 @@ Claude Fable 5.2 输出的是代码，不是视频文件。代码在你的电脑
 
 在 Claude Code 里先要一段 15 秒告别视频，再补一句「做成作品集」。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-01#motion-graphics-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-01.webp" width="560" alt="两句话做一支告别 Opus 5.5 的作品集短片 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/9e5b1c2c-c8a4-42e2-8e4a-b09d24ed1cc7
 
 **提示词:**
 
@@ -137,7 +137,7 @@ Claude Code , two prompts:
 
 一段开放需求：做一个最能震撼人、能直接分享的作品。结果是带配乐的交互式粒子动画。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-02#motion-graphics-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-02.webp" width="560" alt="粒子文字变成星系、双螺旋，最后拼出你的名字 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/87dcae6e-5db0-493b-af51-7728f885e228
 
 **提示词:**
 
@@ -152,7 +152,7 @@ the prompt: "I need you to create the most impressive thing I can share with peo
 
 长规格说明：纯 WebGL2 + Web Audio、不用任何库的开关组件。作者称这次花了 $7.48。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-03#motion-graphics-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-03.webp" width="560" alt="一根潜入海底世界的音量滑块 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/881af4cb-a87b-4dc0-a277-595d823729f8
 
 **提示词:**
 
@@ -256,7 +256,7 @@ READOUTS
 
 同一套「材质研究」格式，单页 WebGL2 + Web Audio。作者称用了 10 分钟、$8.43。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-04#motion-graphics-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-04.webp" width="560" alt="从黑夜滑到清晨的温馨小屋开关 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/43693a77-956f-4518-87de-c64e9c99b327
 
 **提示词:**
 
@@ -334,7 +334,7 @@ SOUND — all synthesised live with Web Audio, original music
 
 一句话：用铬金属和网格做我的 Logo 3D 揭幕，多迭代几轮。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-05#motion-graphics-05"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-05.webp" width="560" alt="铬金属质感的 3D Logo 揭幕 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/a73ee82d-e624-4214-822d-db0306296688
 
 **提示词:**
 
@@ -350,7 +350,7 @@ and bunch of iteration
 
 很多人在 Opus 5.5 上跑过的同一句话，换成 Fable 5.2：缓动、字体、景深、节奏都在一支片里。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-06#motion-graphics-06"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-06.webp" width="560" alt="一句话 15 秒动效设计师作品集 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/e708f162-826c-4b84-86d5-3ca6a64080d3
 
 **提示词:**
 
@@ -370,7 +370,7 @@ make a dynamic 15-second motion graphics video that shows what an incredible mot
 
 土耳其语提示词：在发布当天，用 Opus 5.5 子代理给 Fable 5.2 做一支 60 秒动画宣传片。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-01#product-launch-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-01.webp" width="560" alt="调用 Opus 5.5 子代理做的 60 秒发布片 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/5c70cca9-79e2-41f0-85a5-cc7a75118cd4
 
 **提示词:**
 
@@ -385,7 +385,7 @@ Bugün duyurulmana özel Fable 5.2 modeli için opus 5.5 subagentları kullanara
 
 一句土耳其语。作者称用了 57 分钟、按 API 价约 $21、1,702 行 Python、2,220 帧，音乐也是合成的。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-02#product-launch-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-02.webp" width="560" alt="「做你自己的发布视频，只用代码」 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/73630cf7-74c1-40a2-8661-01130ec49748
 
 **提示词:**
 
@@ -400,7 +400,7 @@ Kendi lansman videonu yap. Sadece kodla.
 
 西班牙语提示词，在作者自己的项目里运行：要有声音、动画要炸，medium 档位，约 10 分钟。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-03#product-launch-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-03.webp" width="320" alt="用 HyperFrames 做的课程社媒预告片 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/8066c1f5-8a96-4b12-8810-a3c7dd64175d
 
 **提示词:**
 
@@ -417,7 +417,7 @@ Esfuerzo medio.
 
 在知识站项目目录里运行：先调研业务，只问一轮问题，然后直接成片，风格像苹果发布会。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-04#product-launch-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-04.webp" width="560" alt="一条提示词做出发布会质感的知识站宣传片 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/591923c2-ce88-4a12-a29b-0d834d5d0200
 
 **提示词:**
 
@@ -437,7 +437,7 @@ Esfuerzo medio.
 
 长规格说明：全部在 Blender 里用 Python 搭建，Eevee 渲染，再逐帧描线上色，音乐自己合成。90 秒。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-01#short-film-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-01.webp" width="560" alt="蒸汽火车变形成机器人的 2D 动画短片 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/0190d27a-1663-40f4-bf7a-8bef95c16d03
 
 **提示词:**
 
@@ -487,7 +487,7 @@ Before the final render a script tests every frame on the real meshes: no part o
 
 一句话。作者说全部用 three.js + Remotion 写成，没有外部模型、贴图和素材音效。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-02#short-film-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-02.webp" width="560" alt="UFO 降落 51 区并和人类打招呼 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/c7cfb08e-732f-49b6-a675-aaf2b634ff31
 
 **提示词:**
 
@@ -502,7 +502,7 @@ make me a 30 second video of a UFO visiting Area 51 and greeting humans, ultra d
 
 high 档位，在作者已有的动画底稿上运行，复现时需要一个类似的起始项目。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-03#short-film-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-03.webp" width="560" alt="小巫师亲手造出并发布 Fable 5.2 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/92969c9a-3481-4f59-a2e6-e58f096fa4d4
 
 **提示词:**
 
@@ -517,7 +517,7 @@ Create an animated video of clawd creating and releasing Claude Fable 5.2
 
 中文提示词：不用任何技能，纯编程动画，音效自己编程生成，30 秒以内。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-04#short-film-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-04.webp" width="560" alt="剑齿虎捕猎，纯代码动画 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/768c8130-3fc8-40c6-843d-e396e450a89d
 
 **提示词:**
 
@@ -537,7 +537,7 @@ Create an animated video of clawd creating and releasing Claude Fable 5.2
 
 一句话，要求按史实还原某一周的整座城市。成片巡游了圣殿、园林和宫殿。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=3d-scenes-01#3d-scenes-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/3d-scenes-01.webp" width="560" alt="用 Blender 搭的古耶路撒冷沉浸式 3D 模型 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/64ace52b-eec2-415d-a55a-5ad13bff8c78
 
 **提示词:**
 
@@ -552,7 +552,7 @@ Build an immersive, historically accurate 3D model of Jerusalem during the week 
 
 详细的 three.js 规格，暴露 renderAt(t) 方便逐帧截取：浮岛上的巴黎，埃菲尔铁塔正在建造。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=3d-scenes-02#3d-scenes-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/3d-scenes-02.webp" width="560" alt="1888 年的悬浮体素巴黎，逐帧渲染 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/af1de0bb-80d3-4868-923a-63470c7325a5
 
 **提示词:**
 
@@ -574,7 +574,7 @@ Full credits go to @semichenkko for this prompt
 
 直白列出规则和操作：运球、跳投、扣篮、抢断、传球、两支队。一次成型。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=games-01#games-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/games-01.webp" width="560" alt="一次生成的 Three.js 3D 篮球游戏 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/ed34dbec-020c-4dde-81bd-f09356c3a981
 
 **提示词:**
 
@@ -597,7 +597,7 @@ Note: include sound effects and crowd cheering! You can use Blender (installed o
 
 一条提示词定好循环：走路、打斗、偷车、被追、赚钱花钱。作者称用了 2 小时 14 分钟。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=games-02#games-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/games-02.webp" width="560" alt="80 年代迈阿密风格城市里的开放世界游戏 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/5e4fe8bc-b76c-4525-8846-be7b9bd39a87
 
 **提示词:**
 
@@ -617,7 +617,7 @@ you're a senior game dev. build a third-person open-world crime game in a sunny 
 
 Extra High 档位，只要代码块。做巴赫测评的作者说这是目前见过最好的众赞歌之一。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-01#music-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-01.webp" width="560" alt="用 LilyPond 写的 G 小调巴赫风格众赞歌 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/c9cabac3-605e-4c51-9a50-7d31d7e0789c
 
 **提示词:**
 
@@ -632,7 +632,7 @@ Prompt: “In LilyPond (version 2.24), write a 4-part chorale in the style of Ba
 
 日语提示词：当成作品集来炫一手动效，约 1 分钟。作者提供了歌曲和歌词，并和 Opus 5.5 做了对比。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-02#music-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-02.webp" width="560" alt="给歌和歌词做的日语歌词动态视频 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/b6b6ebd6-6efd-42a5-82b4-d3d415c69ccc
 
 **提示词:**
 
@@ -647,7 +647,7 @@ Prompt: “In LilyPond (version 2.24), write a 4-part chorale in the style of Ba
 
 日语提示词：零素材、只用代码。作者称共 1,076 行，画面全是着色器，音乐也用代码合成。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-03#music-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-03.webp" width="560" alt="从一个点长成整个世界：着色器影片配代码合成音乐 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/47266d4f-17ad-4213-b4c5-f01c8cccb0c1
 
 **提示词:**
 
@@ -663,7 +663,7 @@ Fable 5.2の実力を見せつける動画を作成して。
 
 Extra High 档位的一句话。视频播放排好的乐谱和渲染出的音频。
 
-<a href="https://apiko.app/zh/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-04#music-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-04.webp" width="560" alt="用 LilyPond 写的完整巴赫风格管风琴赋格 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/c3885427-fd10-4e67-915a-7639895c6f0f
 
 **提示词:**
 

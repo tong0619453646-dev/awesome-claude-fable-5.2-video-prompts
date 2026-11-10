@@ -21,7 +21,7 @@
 
 **Claude Fable 5.2 영상 프롬프트: 실제 프롬프트 22개와 그 결과 영상. WebGL 슬라이더, Three.js 장면부터 Blender 애니메이션, LilyPond 음악까지.**
 
-Claude Fable 5.2 영상 프롬프트를 출시 직후 크리에이터들이 공개한 작품에서 모았습니다. 카드마다 작성자의 원문 프롬프트와 그 결과 영상이 있어 그대로 복사해 비교할 수 있습니다.
+Claude Fable 5.2 영상 프롬프트를 출시 직후 크리에이터들이 공개한 작품에서 모았습니다. 카드마다 작성자의 원문 프롬프트와 그 결과 영상이 있어 그대로 복사해 비교할 수 있습니다. 결과 영상은 모두 GitHub에서 바로 재생됩니다.
 
 검색과 필터는 [apiko.app/claude-fable-5-2-video-prompts](https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=readme&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=intro).
 
@@ -119,7 +119,7 @@ Claude Fable 5.2는 영상 파일이 아니라 코드를 씁니다. 코드를 �
 
 Claude Code에서 15초 작별 영상을 요청한 뒤 "쇼릴처럼 만들어 줘"를 덧붙입니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-01#motion-graphics-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-01.webp" width="560" alt="두 문장으로 만든 Opus 5.5 작별 쇼릴 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/9e5b1c2c-c8a4-42e2-8e4a-b09d24ed1cc7
 
 **프롬프트:**
 
@@ -137,7 +137,7 @@ Claude Code , two prompts:
 
 "가장 인상적인 걸 만들어 달라"는 열린 요청입니다. 음악이 붙은 인터랙티브 파티클 작품이 나왔습니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-02#motion-graphics-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-02.webp" width="560" alt="은하·이중나선을 거쳐 이름이 되는 파티클 글자 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/87dcae6e-5db0-493b-af51-7728f885e228
 
 **프롬프트:**
 
@@ -152,7 +152,7 @@ the prompt: "I need you to create the most impressive thing I can share with peo
 
 라이브러리 없이 WebGL2와 Web Audio만 쓰는 스위치의 긴 명세입니다. 작성자는 비용이 $7.48였다고 밝혔습니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-03#motion-graphics-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-03.webp" width="560" alt="바닷속 세계로 내려가는 볼륨 슬라이더 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/881af4cb-a87b-4dc0-a277-595d823729f8
 
 **프롬프트:**
 
@@ -256,7 +256,7 @@ READOUTS
 
 같은 "소재 연구" 형식으로, WebGL2와 Web Audio만 쓴 단일 페이지입니다. 작성자는 10분, $8.43이 들었다고 밝혔습니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-04#motion-graphics-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-04.webp" width="560" alt="밤에서 아침으로 넘어가는 아늑한 방 스위치 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/43693a77-956f-4518-87de-c64e9c99b327
 
 **프롬프트:**
 
@@ -334,7 +334,7 @@ SOUND — all synthesised live with Web Audio, original music
 
 "크롬 금속과 그리드로 내 로고를 3D로 보여 주고 여러 번 다듬어 줘"라는 한 문장입니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-05#motion-graphics-05"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-05.webp" width="560" alt="크롬 금속 질감의 3D 로고 리빌 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/a73ee82d-e624-4214-822d-db0306296688
 
 **프롬프트:**
 
@@ -350,7 +350,7 @@ and bunch of iteration
 
 많은 사람이 Opus 5.5에서 돌린 같은 문장을 Fable 5.2로 돌렸습니다. 이징, 타이포, 깊이, 타이밍이 한 편에 담깁니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-06#motion-graphics-06"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/motion-graphics-06.webp" width="560" alt="한 줄로 만든 15초 모션 디자이너 쇼릴 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/e708f162-826c-4b84-86d5-3ca6a64080d3
 
 **프롬프트:**
 
@@ -370,7 +370,7 @@ make a dynamic 15-second motion graphics video that shows what an incredible mot
 
 튀르키예어 프롬프트로, 출시 당일 Opus 5.5 서브에이전트를 써서 Fable 5.2의 60초 애니메이션 영상을 만들게 합니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-01#product-launch-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-01.webp" width="560" alt="Opus 5.5 서브에이전트로 만든 60초 출시 영상 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/5c70cca9-79e2-41f0-85a5-cc7a75118cd4
 
 **프롬프트:**
 
@@ -385,7 +385,7 @@ Bugün duyurulmana özel Fable 5.2 modeli için opus 5.5 subagentları kullanara
 
 튀르키예어 한 문장입니다. 작성자는 57분, API 가격 기준 약 $21, Python 1,702줄, 2,220프레임이 들었고 음악도 합성했다고 밝혔습니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-02#product-launch-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-02.webp" width="560" alt="&quot;네 출시 영상을 직접 만들어. 코드만으로.&quot; – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/73630cf7-74c1-40a2-8661-01130ec49748
 
 **프롬프트:**
 
@@ -400,7 +400,7 @@ Kendi lansman videonu yap. Sadece kodla.
 
 작성자의 프로젝트 안에서 돌린 스페인어 프롬프트입니다. 소리와 강한 애니메이션을 요청했고 medium 단계로 약 10분 걸렸습니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-03#product-launch-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-03.webp" width="320" alt="HyperFrames로 만든 강의 소셜 트레일러 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/8066c1f5-8a96-4b12-8810-a3c7dd64175d
 
 **프롬프트:**
 
@@ -417,7 +417,7 @@ Esfuerzo medio.
 
 사이트 프로젝트 폴더에서 돌린 중국어 프롬프트입니다. 사업을 조사하고 질문은 한 번만 한 뒤 애플 키노트 느낌의 영상을 바로 만듭니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-04#product-launch-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/product-launch-04.webp" width="560" alt="프롬프트 하나로 만든 키노트풍 지식 사이트 홍보 영상 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/591923c2-ce88-4a12-a29b-0d834d5d0200
 
 **프롬프트:**
 
@@ -437,7 +437,7 @@ Esfuerzo medio.
 
 긴 명세입니다. Blender에서 Python으로 모두 만들고 Eevee로 렌더링한 뒤 프레임마다 선과 색을 입히고 음악도 합성합니다. 90초.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-01#short-film-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-01.webp" width="560" alt="로봇으로 변신하는 증기기관차 2D 애니메이션 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/0190d27a-1663-40f4-bf7a-8bef95c16d03
 
 **프롬프트:**
 
@@ -487,7 +487,7 @@ Before the final render a script tests every frame on the real meshes: no part o
 
 한 문장입니다. 작성자는 외부 모델, 텍스처, 스톡 오디오 없이 three.js와 Remotion으로 모두 만들었다고 밝혔습니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-02#short-film-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-02.webp" width="560" alt="51구역에 내려와 사람들에게 인사하는 UFO – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/c7cfb08e-732f-49b6-a675-aaf2b634ff31
 
 **프롬프트:**
 
@@ -502,7 +502,7 @@ make me a 30 second video of a UFO visiting Area 51 and greeting humans, ultra d
 
 high 단계로 작성자가 이미 가진 애니메이션 기반 위에서 돌렸으므로, 따라 하려면 비슷한 시작 프로젝트가 필요합니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-03#short-film-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-03.webp" width="560" alt="Fable 5.2를 만들어 공개하는 작은 마법사 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/92969c9a-3481-4f59-a2e6-e58f096fa4d4
 
 **프롬프트:**
 
@@ -517,7 +517,7 @@ Create an animated video of clawd creating and releasing Claude Fable 5.2
 
 중국어 프롬프트로, 스킬 없이 순수 코드 애니메이션을 만들고 효과음도 직접 코드로 생성하며 30초 이내로 하게 합니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-04#short-film-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/short-film-04.webp" width="560" alt="코드만으로 만든 검치호랑이의 사냥 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/768c8130-3fc8-40c6-843d-e396e450a89d
 
 **프롬프트:**
 
@@ -537,7 +537,7 @@ Create an animated video of clawd creating and releasing Claude Fable 5.2
 
 역사 속 한 주의 도시를 고증대로 재현해 달라는 한 문장입니다. 영상은 성전, 정원, 궁전을 둘러봅니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=3d-scenes-01#3d-scenes-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/3d-scenes-01.webp" width="560" alt="Blender로 만든 고대 예루살렘 몰입형 3D 모델 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/64ace52b-eec2-415d-a55a-5ad13bff8c78
 
 **프롬프트:**
 
@@ -552,7 +552,7 @@ Build an immersive, historically accurate 3D model of Jerusalem during the week 
 
 renderAt(t)를 노출해 모든 프레임을 캡처하는 자세한 three.js 명세로, 섬 위 파리에서 에펠탑이 지어지는 장면입니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=3d-scenes-02#3d-scenes-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/3d-scenes-02.webp" width="560" alt="프레임 단위로 렌더링한 1888년 부유 복셀 파리 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/af1de0bb-80d3-4868-923a-63470c7325a5
 
 **프롬프트:**
 
@@ -574,7 +574,7 @@ Full credits go to @semichenkko for this prompt
 
 드리블, 점프슛, 덩크, 스틸, 패스, 두 팀 등 규칙과 조작을 그대로 나열했습니다. 한 번에 완성됐습니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=games-01#games-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/games-01.webp" width="560" alt="한 번에 만든 Three.js 3D 농구 게임 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/ed34dbec-020c-4dde-81bd-f09356c3a981
 
 **프롬프트:**
 
@@ -597,7 +597,7 @@ Note: include sound effects and crowd cheering! You can use Blender (installed o
 
 걷기, 싸우기, 차 훔치기, 추격, 돈 벌고 쓰기로 이어지는 루프를 한 프롬프트에 담았습니다. 작성자는 2시간 14분 걸렸다고 밝혔습니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=games-02#games-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/games-02.webp" width="560" alt="80년대 마이애미풍 도시의 오픈월드 게임 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/5e4fe8bc-b76c-4525-8846-be7b9bd39a87
 
 **프롬프트:**
 
@@ -617,7 +617,7 @@ you're a senior game dev. build a third-person open-world crime game in a sunny 
 
 Extra High 단계에서 코드 블록만 요청합니다. 바흐 벤치마크를 하는 작성자는 지금까지 본 최고의 코랄 중 하나라고 평가했습니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-01#music-01"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-01.webp" width="560" alt="LilyPond로 쓴 G단조 바흐풍 코랄 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/c9cabac3-605e-4c51-9a50-7d31d7e0789c
 
 **프롬프트:**
 
@@ -632,7 +632,7 @@ Prompt: “In LilyPond (version 2.24), write a 4-part chorale in the style of Ba
 
 모션 디자이너로서 실력을 뽐내라는 약 1분짜리 일본어 프롬프트입니다. 작성자가 노래와 가사를 제공했고 Opus 5.5와 비교했습니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-02#music-02"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-02.webp" width="560" alt="노래와 가사로 만든 일본어 가사 모션 영상 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/b6b6ebd6-6efd-42a5-82b4-d3d415c69ccc
 
 **프롬프트:**
 
@@ -647,7 +647,7 @@ Prompt: “In LilyPond (version 2.24), write a 4-part chorale in the style of Ba
 
 소재 없이 코드만 쓰라는 일본어 프롬프트입니다. 작성자는 1,076줄이며 그림은 셰이더, 음악은 코드로 합성했다고 밝혔습니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-03#music-03"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-03.webp" width="560" alt="한 점에서 세계로: 코드로 합성한 음악의 셰이더 영상 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/47266d4f-17ad-4213-b4c5-f01c8cccb0c1
 
 **프롬프트:**
 
@@ -663,7 +663,7 @@ Fable 5.2の実力を見せつける動画を作成して。
 
 Extra High 단계의 한 문장입니다. 영상은 조판된 악보와 렌더링한 오디오를 함께 보여 줍니다.
 
-<a href="https://apiko.app/ko/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-04#music-04"><img src="https://media.apiko.app/prompts/claude-fable-5-2-video-prompts/music-04.webp" width="560" alt="LilyPond로 쓴 바흐풍 오르간 푸가 전곡 – Claude Fable 5.2"></a>
+https://github.com/user-attachments/assets/c3885427-fd10-4e67-915a-7639895c6f0f
 
 **프롬프트:**
 
