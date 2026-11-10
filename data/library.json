@@ -1,0 +1,1998 @@
+{
+ "config": {
+  "slug": "claude-fable-5-2-video-prompts",
+  "path": "/claude-fable-5-2-video-prompts",
+  "model": "claude-fable-5-2",
+  "modelLabel": "Claude Fable 5.2",
+  "media": "video",
+  "playground": "text",
+  "categories": [
+   "motion-graphics",
+   "product-launch",
+   "short-film",
+   "3d-scenes",
+   "games",
+   "music"
+  ],
+  "updatedAt": "2026-11-10",
+  "cover": "/imgs/prompts/claude-fable-5-2-video-prompts.jpg"
+ },
+ "featured": [
+  "motion-graphics-03",
+  "product-launch-02",
+  "short-film-01",
+  "3d-scenes-02",
+  "games-01",
+  "music-03"
+ ],
+ "page": {
+  "en": {
+   "metaTitle": "Claude Fable 5.2 Video Prompts — {n} Examples with Results",
+   "h1": "Claude Fable 5.2 Video Prompts",
+   "description": "Claude Fable 5.2 video prompts: {n} real prompts with the videos they made, from WebGL sliders and Three.js scenes to Blender anime and LilyPond music.",
+   "eyebrow": "Prompt + result · {n}",
+   "subtitle": "Claude Fable 5.2 video prompts collected from creators in the first days after launch. Every card has the exact prompt the creator posted and the video it produced, so you can copy one and compare.",
+   "ctaPrimary": {
+    "label": "Try Claude Fable 5.2",
+    "href": "/models/claude-fable-5-2"
+   },
+   "ctaSecondary": {
+    "label": "Claude API docs",
+    "href": "/docs/api-manual/text-series/claude"
+   },
+   "credit": "Prompts and videos belong to the creators credited on each card, and every card links to the original post.",
+   "featured": "Featured Claude Fable 5.2 video prompts",
+   "badge": "Claude Fable 5.2 video prompt",
+   "imageAlt": "{title} – Claude Fable 5.2 video prompt result",
+   "categories": {
+    "motion-graphics": {
+     "name": "Motion graphics",
+     "intro": "Showreels, logo reveals and UI switches drawn in HTML, WebGL and shaders."
+    },
+    "product-launch": {
+     "name": "Launch and promo",
+     "intro": "Launch films and trailers, from a one-line \"code only\" brief to a project folder the model researches first."
+    },
+    "short-film": {
+     "name": "Short film",
+     "intro": "Stories told in code: Blender anime, a Three.js UFO, a character animation and a wildlife hunt."
+    },
+    "3d-scenes": {
+     "name": "3D scenes",
+     "intro": "Whole places built in Blender or Three.js and shown as a camera tour."
+    },
+    "games": {
+     "name": "Games",
+     "intro": "Playable Three.js games from one prompt, recorded while someone plays."
+    },
+    "music": {
+     "name": "Music",
+     "intro": "Scores written in LilyPond and lyric or shader films with music made in code."
+    }
+   },
+   "guide": {
+    "title": "How to write Claude Fable 5.2 video prompts",
+    "intro": "Claude Fable 5.2 writes code, not video files. The code is rendered on your machine and captured as frames. Decide the route first and name it in the prompt.",
+    "items": [
+     {
+      "h": "One self-contained page",
+      "formula": "Single HTML file + WebGL or Canvas + Web Audio + \"no libraries\"",
+      "t": "The two volume-slider cards ask for one page with raw WebGL2, Web Audio and a pixel buffer. A page like this can be opened in a browser and screen-recorded."
+     },
+     {
+      "h": "Three.js with a frame clock",
+      "formula": "Scene + length + size + fps + window.renderAt(t)",
+      "t": "The voxel Paris card exposes renderAt(t) so every frame can be captured at a fixed rate. Ask for it whenever the video has to be exact rather than a live recording."
+     },
+     {
+      "h": "Remotion or HyperFrames",
+      "formula": "Framework + length + what to sell + project folder",
+      "t": "Trailer cards name HyperFrames or Remotion and run inside the project, so the model reads the real product before it writes the film."
+     },
+     {
+      "h": "Blender and LilyPond",
+      "formula": "Tool + subject + render settings, or \"only the code block\"",
+      "t": "The anime short builds every shot in Blender from Python; the music cards ask for LilyPond code only. Both need the tool installed locally to turn the code into a video."
+     },
+     {
+      "h": "What to state every time",
+      "formula": "Length + resolution + fps + effort + assets you supply",
+      "t": "Cards that gave a length got it. Say which assets you bring (a song, lyrics, a project folder), because four cards here depend on them."
+     }
+    ]
+   },
+   "tips": {
+    "title": "What the Claude Fable 5.2 examples show",
+    "items": [
+     {
+      "h": "One sentence can be enough",
+      "t": "The UFO, the logo reveal and the \"code only\" launch film came from one line. Long specs are for exact looks, like the 6,000-character slider studies."
+     },
+     {
+      "h": "Creators report the cost",
+      "t": "The two sliders cost $7.48 and $8.43, and the self-made launch film about $21 at API prices over 57 minutes. Budget for long runs."
+     },
+     {
+      "h": "Long work runs as an agent",
+      "t": "The 60-second launch film used Opus 5.5 subagents and the crime game took over two hours. Run these in Claude Code or another agent loop, not one API call."
+     },
+     {
+      "h": "Effort matters",
+      "t": "The music cards used Extra High, the wizard film high, the trailer medium. Fable 5.2 thinks on every request and defaults to high."
+     },
+     {
+      "h": "Opus 5.5 is still close",
+      "t": "Two creators ran the same prompt on both models and one preferred the Opus 5.5 result. Compare on your own idea before switching."
+     }
+    ]
+   },
+   "faq": {
+    "title": "Claude Fable 5.2 video prompts: questions",
+    "items": [
+     {
+      "question": "Can Claude Fable 5.2 make a video?",
+      "answer": "It writes the code: an HTML page, a Three.js scene, a Remotion or HyperFrames project, a Blender script or a LilyPond score. That code is rendered on your machine and captured as a video."
+     },
+     {
+      "question": "Are these Claude Fable 5.2 prompts the real ones?",
+      "answer": "Yes. Each prompt was checked word for word against the creator's own post or reply, and each video is the one the creator posted for it. Every card links to the source."
+     },
+     {
+      "question": "Are these Claude Fable 5.2 prompts free to use, and who owns the results?",
+      "answer": "The prompts and videos belong to the creators credited on each card. Use them as a starting point and check the creator's terms before republishing."
+     },
+     {
+      "question": "How do I run a Claude Fable 5.2 video prompt with the API?",
+      "answer": "Send it to the claude-fable-5-2 model through the Messages or Chat Completions API and save the code it returns. Through APIKO one response is capped at 32K output tokens, so large builds should run in an agent over several turns."
+     },
+     {
+      "question": "What does the Use button do for a Claude Fable 5.2 prompt?",
+      "answer": "It opens the Claude Fable 5.2 model page with the prompt filled in. Files the creator used, such as a song or a project folder, are not attached."
+     },
+     {
+      "question": "Which effort level should I use with Claude Fable 5.2?",
+      "answer": "Anthropic's default is high, and Fable 5.2 thinks on every request. The music cards here used Extra High; the trailer ran at medium in about ten minutes."
+     },
+     {
+      "question": "Why is my Claude Fable 5.2 result different from the video?",
+      "answer": "Results vary between runs, and creators may have used another effort level, tools, an existing project or several rounds of feedback."
+     },
+     {
+      "question": "Does Claude Fable 5.2 make the music too?",
+      "answer": "Several cards synthesize sound in code with Web Audio or Python. One lyric video used the creator's own song, and the LilyPond cards write the score itself."
+     },
+     {
+      "question": "Should I use Claude Fable 5.2 or Claude Opus 5.5 for video prompts?",
+      "answer": "Anthropic suggests starting with Opus 5.5 and moving to Fable 5.2 for harder, longer work. Our Claude Opus 5.5 video prompts library has examples to compare."
+     }
+    ]
+   },
+   "links": {
+    "title": "More from APIKO",
+    "items": [
+     {
+      "label": "Claude Fable 5.2 model page",
+      "href": "/models/claude-fable-5-2"
+     },
+     {
+      "label": "Claude API docs",
+      "href": "/docs/api-manual/text-series/claude"
+     },
+     {
+      "label": "Claude Opus 5.5 video prompts",
+      "href": "/claude-opus-5-5-video-prompts"
+     },
+     {
+      "label": "APIKO chat",
+      "href": "/chat"
+     },
+     {
+      "label": "Claude Fable 5.2 video prompts on GitHub",
+      "href": "https://github.com/tong0619453646-dev/awesome-claude-fable-5.2-video-prompts"
+     }
+    ]
+   }
+  },
+  "zh": {
+   "metaTitle": "Claude Fable 5.2 视频提示词：{n} 个带成片的案例",
+   "h1": "Claude Fable 5.2 视频提示词",
+   "description": "Claude Fable 5.2 视频提示词：{n} 条真实提示词和它们做出的视频，从 WebGL 滑块、Three.js 场景到 Blender 动画和 LilyPond 音乐。",
+   "eyebrow": "提示词 + 成片 · {n}",
+   "subtitle": "Claude Fable 5.2 视频提示词，收集自发布后头几天创作者公开的作品。每张卡片都有作者原文提示词和它做出的视频，可以直接复制对照。",
+   "ctaPrimary": {
+    "label": "试用 Claude Fable 5.2",
+    "href": "/models/claude-fable-5-2"
+   },
+   "ctaSecondary": {
+    "label": "Claude API 文档",
+    "href": "/docs/api-manual/text-series/claude"
+   },
+   "credit": "提示词和视频归各卡片署名的创作者所有，每张卡片都链接到原帖。",
+   "featured": "精选 Claude Fable 5.2 视频提示词",
+   "badge": "Claude Fable 5.2 视频提示词",
+   "imageAlt": "{title} – Claude Fable 5.2 视频提示词成片",
+   "categories": {
+    "motion-graphics": {
+     "name": "动效",
+     "intro": "作品集短片、Logo 揭幕和界面开关，用 HTML、WebGL 和着色器画出来。"
+    },
+    "product-launch": {
+     "name": "发布与宣传",
+     "intro": "发布片和预告片，从一句「只用代码」到让模型先调研整个项目目录。"
+    },
+    "short-film": {
+     "name": "短片",
+     "intro": "用代码讲故事：Blender 日式动画、Three.js 的 UFO、角色动画和动物捕猎。"
+    },
+    "3d-scenes": {
+     "name": "3D 场景",
+     "intro": "在 Blender 或 Three.js 里搭出一整个地方，再用镜头巡游展示。"
+    },
+    "games": {
+     "name": "游戏",
+     "intro": "一条提示词做出的 Three.js 可玩游戏，视频是试玩录屏。"
+    },
+    "music": {
+     "name": "音乐",
+     "intro": "用 LilyPond 写的乐谱，以及配代码合成音乐的歌词视频和着色器影片。"
+    }
+   },
+   "guide": {
+    "title": "怎么写 Claude Fable 5.2 视频提示词",
+    "intro": "Claude Fable 5.2 输出的是代码，不是视频文件。代码在你的电脑上渲染并逐帧录下来。先定好路线，并在提示词里写明。",
+    "items": [
+     {
+      "h": "单个自包含页面",
+      "formula": "单个 HTML + WebGL 或 Canvas + Web Audio +「不用任何库」",
+      "t": "两张音量滑块卡片要求一个页面里只用原生 WebGL2、Web Audio 和像素缓冲。这种页面在浏览器里打开就能录屏。"
+     },
+     {
+      "h": "Three.js 加帧时钟",
+      "formula": "场景 + 时长 + 尺寸 + 帧率 + window.renderAt(t)",
+      "t": "体素巴黎那张卡要求暴露 renderAt(t)，可以按固定帧率逐帧截取。视频要求精确、不能靠实时录屏时就这样写。"
+     },
+     {
+      "h": "Remotion 或 HyperFrames",
+      "formula": "框架 + 时长 + 要卖什么 + 项目目录",
+      "t": "预告片类卡片点名 HyperFrames 或 Remotion，并在项目里运行，让模型先读真实的产品再写片子。"
+     },
+     {
+      "h": "Blender 和 LilyPond",
+      "formula": "工具 + 主题 + 渲染设置，或「只要代码块」",
+      "t": "动画短片在 Blender 里用 Python 搭每个镜头；音乐卡片只要 LilyPond 代码。两者都要在本机装好对应工具，才能把代码变成视频。"
+     },
+     {
+      "h": "每次都要写清楚的",
+      "formula": "时长 + 分辨率 + 帧率 + effort + 你提供的素材",
+      "t": "写了时长的卡片都拿到了对应时长。要说明你会提供哪些素材（歌曲、歌词、项目目录），这里有四张卡片依赖它们。"
+     }
+    ]
+   },
+   "tips": {
+    "title": "这些 Claude Fable 5.2 案例说明了什么",
+    "items": [
+     {
+      "h": "一句话可能就够",
+      "t": "UFO、Logo 揭幕和「只用代码」的发布片都只有一句话。长规格是为了精确的效果，比如 6,000 字的滑块研究。"
+     },
+     {
+      "h": "创作者报了成本",
+      "t": "两个滑块分别花了 $7.48 和 $8.43；自制发布片跑了 57 分钟，按 API 价约 $21。长任务要留预算。"
+     },
+     {
+      "h": "大活要用 Agent 跑",
+      "t": "60 秒发布片调用了 Opus 5.5 子代理，犯罪题材游戏跑了两个多小时。这类要在 Claude Code 等 Agent 里跑，不是一次 API 调用。"
+     },
+     {
+      "h": "effort 有影响",
+      "t": "音乐卡片用 Extra High，巫师短片用 high，预告片用 medium。Fable 5.2 每次请求都会思考，默认是 high。"
+     },
+     {
+      "h": "Opus 5.5 依然接近",
+      "t": "有两位作者在两个模型上跑了同一条提示词，其中一位更喜欢 Opus 5.5 的结果。换模型前先用自己的点子比一比。"
+     }
+    ]
+   },
+   "faq": {
+    "title": "Claude Fable 5.2 视频提示词：常见问题",
+    "items": [
+     {
+      "question": "Claude Fable 5.2 能做视频吗？",
+      "answer": "它写的是代码：HTML 页面、Three.js 场景、Remotion 或 HyperFrames 项目、Blender 脚本或 LilyPond 乐谱。代码在你的电脑上渲染后录成视频。"
+     },
+     {
+      "question": "这些 Claude Fable 5.2 提示词是原版吗？",
+      "answer": "是。每条提示词都和作者本人的帖子或回复逐字核对过，每个视频都是作者为这条提示词发的那一个，每张卡片都链接到出处。"
+     },
+     {
+      "question": "这些 Claude Fable 5.2 提示词能免费用吗？成片归谁？",
+      "answer": "提示词和视频归各卡片署名的创作者所有。可以当作起点，转载前请看创作者的说明。"
+     },
+     {
+      "question": "怎么用 API 跑 Claude Fable 5.2 视频提示词？",
+      "answer": "通过 Messages 或 Chat Completions 接口发给 claude-fable-5-2 模型，保存它返回的代码。经 APIKO 调用时单次回复最多输出 32K token，大型项目要在 Agent 里分多轮跑。"
+     },
+     {
+      "question": "Claude Fable 5.2 提示词卡片上的「使用」按钮做什么？",
+      "answer": "打开 Claude Fable 5.2 模型页并填好提示词。作者用到的文件（歌曲、项目目录等）不会附带。"
+     },
+     {
+      "question": "Claude Fable 5.2 用哪个 effort 档位？",
+      "answer": "Anthropic 默认是 high，Fable 5.2 每次请求都会思考。这里的音乐卡片用 Extra High；预告片用 medium，约 10 分钟跑完。"
+     },
+     {
+      "question": "为什么我的 Claude Fable 5.2 结果和视频不一样？",
+      "answer": "每次运行结果都会不同，作者也可能用了别的 effort 档位、工具、已有项目或多轮修改。"
+     },
+     {
+      "question": "Claude Fable 5.2 也能做音乐吗？",
+      "answer": "有几张卡片用 Web Audio 或 Python 在代码里合成声音。一支歌词视频用的是作者自己的歌，LilyPond 卡片直接写乐谱。"
+     },
+     {
+      "question": "做视频该用 Claude Fable 5.2 还是 Claude Opus 5.5？",
+      "answer": "Anthropic 建议先用 Opus 5.5，遇到更难、更长的任务再换 Fable 5.2。我们的 Claude Opus 5.5 视频提示词库可以拿来对比。"
+     }
+    ]
+   },
+   "links": {
+    "title": "APIKO 其他内容",
+    "items": [
+     {
+      "label": "Claude Fable 5.2 模型页",
+      "href": "/models/claude-fable-5-2"
+     },
+     {
+      "label": "Claude API 文档",
+      "href": "/docs/api-manual/text-series/claude"
+     },
+     {
+      "label": "Claude Opus 5.5 视频提示词",
+      "href": "/claude-opus-5-5-video-prompts"
+     },
+     {
+      "label": "APIKO 对话",
+      "href": "/chat"
+     },
+     {
+      "label": "GitHub 上的 Claude Fable 5.2 视频提示词",
+      "href": "https://github.com/tong0619453646-dev/awesome-claude-fable-5.2-video-prompts"
+     }
+    ]
+   }
+  },
+  "zh-TW": {
+   "metaTitle": "Claude Fable 5.2 影片提示詞：{n} 個附成片的案例",
+   "h1": "Claude Fable 5.2 影片提示詞",
+   "description": "Claude Fable 5.2 影片提示詞：{n} 條真實提示詞和它們做出的影片，從 WebGL 滑桿、Three.js 場景到 Blender 動畫和 LilyPond 音樂。",
+   "eyebrow": "提示詞 + 成片 · {n}",
+   "subtitle": "Claude Fable 5.2 影片提示詞，收集自發表後頭幾天創作者公開的作品。每張卡片都有作者原文提示詞和它做出的影片，可以直接複製對照。",
+   "ctaPrimary": {
+    "label": "試用 Claude Fable 5.2",
+    "href": "/models/claude-fable-5-2"
+   },
+   "ctaSecondary": {
+    "label": "Claude API 文件",
+    "href": "/docs/api-manual/text-series/claude"
+   },
+   "credit": "提示詞和影片歸各卡片署名的創作者所有，每張卡片都連結到原帖。",
+   "featured": "精選 Claude Fable 5.2 影片提示詞",
+   "badge": "Claude Fable 5.2 影片提示詞",
+   "imageAlt": "{title} – Claude Fable 5.2 影片提示詞成片",
+   "categories": {
+    "motion-graphics": {
+     "name": "動態設計",
+     "intro": "作品集短片、Logo 揭幕和介面開關，用 HTML、WebGL 和著色器畫出來。"
+    },
+    "product-launch": {
+     "name": "發表與宣傳",
+     "intro": "發表片和預告片，從一句「只用程式碼」到讓模型先調研整個專案目錄。"
+    },
+    "short-film": {
+     "name": "短片",
+     "intro": "用程式碼說故事：Blender 日式動畫、Three.js 的 UFO、角色動畫和動物捕獵。"
+    },
+    "3d-scenes": {
+     "name": "3D 場景",
+     "intro": "在 Blender 或 Three.js 裡搭出一整個地方，再用鏡頭巡遊展示。"
+    },
+    "games": {
+     "name": "遊戲",
+     "intro": "一條提示詞做出的 Three.js 可玩遊戲，影片是試玩錄影。"
+    },
+    "music": {
+     "name": "音樂",
+     "intro": "用 LilyPond 寫的樂譜，以及配程式合成音樂的歌詞影片和著色器影片。"
+    }
+   },
+   "guide": {
+    "title": "怎麼寫 Claude Fable 5.2 影片提示詞",
+    "intro": "Claude Fable 5.2 輸出的是程式碼，不是影片檔。程式碼在你的電腦上算圖並逐格錄下來。先決定路線，並在提示詞裡寫明。",
+    "items": [
+     {
+      "h": "單一自包含頁面",
+      "formula": "單一 HTML + WebGL 或 Canvas + Web Audio +「不用任何函式庫」",
+      "t": "兩張音量滑桿卡片要求一個頁面裡只用原生 WebGL2、Web Audio 和像素緩衝。這種頁面在瀏覽器打開就能錄影。"
+     },
+     {
+      "h": "Three.js 加影格時鐘",
+      "formula": "場景 + 長度 + 尺寸 + 影格率 + window.renderAt(t)",
+      "t": "體素巴黎那張卡要求提供 renderAt(t)，可以按固定影格率逐格擷取。影片要求精確、不能靠即時錄影時就這樣寫。"
+     },
+     {
+      "h": "Remotion 或 HyperFrames",
+      "formula": "框架 + 長度 + 要賣什麼 + 專案目錄",
+      "t": "預告片類卡片點名 HyperFrames 或 Remotion，並在專案裡執行，讓模型先讀真實的產品再寫片子。"
+     },
+     {
+      "h": "Blender 和 LilyPond",
+      "formula": "工具 + 主題 + 算圖設定，或「只要程式碼區塊」",
+      "t": "動畫短片在 Blender 裡用 Python 搭每個鏡頭；音樂卡片只要 LilyPond 程式碼。兩者都要在本機裝好對應工具，才能把程式碼變成影片。"
+     },
+     {
+      "h": "每次都要寫清楚的",
+      "formula": "長度 + 解析度 + 影格率 + effort + 你提供的素材",
+      "t": "寫了長度的卡片都拿到了對應長度。要說明你會提供哪些素材（歌曲、歌詞、專案目錄），這裡有四張卡片依賴它們。"
+     }
+    ]
+   },
+   "tips": {
+    "title": "這些 Claude Fable 5.2 案例說明了什麼",
+    "items": [
+     {
+      "h": "一句話可能就夠",
+      "t": "UFO、Logo 揭幕和「只用程式碼」的發表片都只有一句話。長規格是為了精確的效果，例如 6,000 字的滑桿研究。"
+     },
+     {
+      "h": "創作者報了成本",
+      "t": "兩個滑桿分別花了 $7.48 和 $8.43；自製發表片跑了 57 分鐘，按 API 價約 $21。長任務要留預算。"
+     },
+     {
+      "h": "大工程要用 Agent 跑",
+      "t": "60 秒發表片呼叫了 Opus 5.5 子代理，犯罪題材遊戲跑了兩個多小時。這類要在 Claude Code 等 Agent 裡跑，不是一次 API 呼叫。"
+     },
+     {
+      "h": "effort 有影響",
+      "t": "音樂卡片用 Extra High，巫師短片用 high，預告片用 medium。Fable 5.2 每次請求都會思考，預設是 high。"
+     },
+     {
+      "h": "Opus 5.5 依然接近",
+      "t": "有兩位作者在兩個模型上跑了同一條提示詞，其中一位更喜歡 Opus 5.5 的結果。換模型前先用自己的點子比一比。"
+     }
+    ]
+   },
+   "faq": {
+    "title": "Claude Fable 5.2 影片提示詞：常見問題",
+    "items": [
+     {
+      "question": "Claude Fable 5.2 能做影片嗎？",
+      "answer": "它寫的是程式碼：HTML 頁面、Three.js 場景、Remotion 或 HyperFrames 專案、Blender 腳本或 LilyPond 樂譜。程式碼在你的電腦上算圖後錄成影片。"
+     },
+     {
+      "question": "這些 Claude Fable 5.2 提示詞是原版嗎？",
+      "answer": "是。每條提示詞都和作者本人的貼文或回覆逐字核對過，每支影片都是作者為這條提示詞發的那一支，每張卡片都連結到出處。"
+     },
+     {
+      "question": "這些 Claude Fable 5.2 提示詞能免費用嗎？成片歸誰？",
+      "answer": "提示詞和影片歸各卡片署名的創作者所有。可以當作起點，轉載前請看創作者的說明。"
+     },
+     {
+      "question": "怎麼用 API 跑 Claude Fable 5.2 影片提示詞？",
+      "answer": "透過 Messages 或 Chat Completions 介面送給 claude-fable-5-2 模型，保存它回傳的程式碼。經 APIKO 呼叫時單次回覆最多輸出 32K token，大型專案要在 Agent 裡分多輪跑。"
+     },
+     {
+      "question": "Claude Fable 5.2 提示詞卡片上的「使用」按鈕做什麼？",
+      "answer": "開啟 Claude Fable 5.2 模型頁並填好提示詞。作者用到的檔案（歌曲、專案目錄等）不會附帶。"
+     },
+     {
+      "question": "Claude Fable 5.2 用哪個 effort 檔位？",
+      "answer": "Anthropic 預設是 high，Fable 5.2 每次請求都會思考。這裡的音樂卡片用 Extra High；預告片用 medium，約 10 分鐘跑完。"
+     },
+     {
+      "question": "為什麼我的 Claude Fable 5.2 結果和影片不一樣？",
+      "answer": "每次執行結果都會不同，作者也可能用了別的 effort 檔位、工具、既有專案或多輪修改。"
+     },
+     {
+      "question": "Claude Fable 5.2 也能做音樂嗎？",
+      "answer": "有幾張卡片用 Web Audio 或 Python 在程式碼裡合成聲音。一支歌詞影片用的是作者自己的歌，LilyPond 卡片直接寫樂譜。"
+     },
+     {
+      "question": "做影片該用 Claude Fable 5.2 還是 Claude Opus 5.5？",
+      "answer": "Anthropic 建議先用 Opus 5.5，遇到更難、更長的工作再換 Fable 5.2。我們的 Claude Opus 5.5 影片提示詞庫可以拿來比較。"
+     }
+    ]
+   },
+   "links": {
+    "title": "APIKO 其他內容",
+    "items": [
+     {
+      "label": "Claude Fable 5.2 模型頁",
+      "href": "/models/claude-fable-5-2"
+     },
+     {
+      "label": "Claude API 文件",
+      "href": "/docs/api-manual/text-series/claude"
+     },
+     {
+      "label": "Claude Opus 5.5 影片提示詞",
+      "href": "/claude-opus-5-5-video-prompts"
+     },
+     {
+      "label": "APIKO 對話",
+      "href": "/chat"
+     },
+     {
+      "label": "GitHub 上的 Claude Fable 5.2 影片提示詞",
+      "href": "https://github.com/tong0619453646-dev/awesome-claude-fable-5.2-video-prompts"
+     }
+    ]
+   }
+  },
+  "ko": {
+   "metaTitle": "Claude Fable 5.2 영상 프롬프트: 결과가 있는 예시 {n}개",
+   "h1": "Claude Fable 5.2 영상 프롬프트",
+   "description": "Claude Fable 5.2 영상 프롬프트: 실제 프롬프트 {n}개와 그 결과 영상. WebGL 슬라이더, Three.js 장면부터 Blender 애니메이션, LilyPond 음악까지.",
+   "eyebrow": "프롬프트 + 결과 · {n}",
+   "subtitle": "Claude Fable 5.2 영상 프롬프트를 출시 직후 크리에이터들이 공개한 작품에서 모았습니다. 카드마다 작성자의 원문 프롬프트와 그 결과 영상이 있어 그대로 복사해 비교할 수 있습니다.",
+   "ctaPrimary": {
+    "label": "Claude Fable 5.2 사용해 보기",
+    "href": "/models/claude-fable-5-2"
+   },
+   "ctaSecondary": {
+    "label": "Claude API 문서",
+    "href": "/docs/api-manual/text-series/claude"
+   },
+   "credit": "프롬프트와 영상은 각 카드에 표시된 크리에이터의 것이며, 모든 카드가 원문 게시물로 연결됩니다.",
+   "featured": "추천 Claude Fable 5.2 영상 프롬프트",
+   "badge": "Claude Fable 5.2 영상 프롬프트",
+   "imageAlt": "{title} – Claude Fable 5.2 영상 프롬프트 결과",
+   "categories": {
+    "motion-graphics": {
+     "name": "모션 그래픽",
+     "intro": "HTML, WebGL, 셰이더로 그린 쇼릴, 로고 리빌, UI 스위치입니다."
+    },
+    "product-launch": {
+     "name": "출시와 홍보",
+     "intro": "\"코드만으로\"라는 한 줄부터 프로젝트 폴더를 먼저 조사하게 하는 방식까지, 출시 영상과 트레일러입니다."
+    },
+    "short-film": {
+     "name": "단편 영상",
+     "intro": "Blender 애니메이션, Three.js UFO, 캐릭터 애니메이션, 동물 사냥처럼 코드로 만든 이야기입니다."
+    },
+    "3d-scenes": {
+     "name": "3D 장면",
+     "intro": "Blender나 Three.js로 장소 전체를 만들고 카메라로 둘러봅니다."
+    },
+    "games": {
+     "name": "게임",
+     "intro": "프롬프트 하나로 만든 Three.js 게임이며, 영상은 플레이 녹화입니다."
+    },
+    "music": {
+     "name": "음악",
+     "intro": "LilyPond로 쓴 악보와, 코드로 만든 음악이 붙은 가사 영상·셰이더 영상입니다."
+    }
+   },
+   "guide": {
+    "title": "Claude Fable 5.2 영상 프롬프트 작성법",
+    "intro": "Claude Fable 5.2는 영상 파일이 아니라 코드를 씁니다. 코드를 내 컴퓨터에서 렌더링하고 프레임으로 기록합니다. 먼저 방식을 정하고 프롬프트에 적으세요.",
+    "items": [
+     {
+      "h": "하나로 완결된 페이지",
+      "formula": "단일 HTML + WebGL 또는 Canvas + Web Audio + \"라이브러리 없음\"",
+      "t": "볼륨 슬라이더 카드 두 개는 원시 WebGL2, Web Audio, 픽셀 버퍼만 쓰는 한 페이지를 요구합니다. 브라우저에서 열어 화면을 녹화하면 됩니다."
+     },
+     {
+      "h": "프레임 시계가 있는 Three.js",
+      "formula": "장면 + 길이 + 크기 + fps + window.renderAt(t)",
+      "t": "복셀 파리 카드는 renderAt(t)를 노출해 정해진 프레임 속도로 모든 프레임을 캡처합니다. 실시간 녹화가 아니라 정확한 영상이 필요할 때 요청하세요."
+     },
+     {
+      "h": "Remotion 또는 HyperFrames",
+      "formula": "프레임워크 + 길이 + 홍보할 내용 + 프로젝트 폴더",
+      "t": "트레일러 카드는 HyperFrames나 Remotion을 지정하고 프로젝트 안에서 실행해, 모델이 실제 제품을 읽은 뒤 영상을 만들게 합니다."
+     },
+     {
+      "h": "Blender와 LilyPond",
+      "formula": "도구 + 주제 + 렌더 설정, 또는 \"코드 블록만\"",
+      "t": "애니메이션 단편은 Blender에서 Python으로 모든 장면을 만들고, 음악 카드는 LilyPond 코드만 요청합니다. 둘 다 코드를 영상으로 바꾸려면 해당 도구를 로컬에 설치해야 합니다."
+     },
+     {
+      "h": "매번 적어야 할 것",
+      "formula": "길이 + 해상도 + fps + effort + 직접 주는 소재",
+      "t": "길이를 적은 카드는 그 길이를 받았습니다. 노래, 가사, 프로젝트 폴더처럼 어떤 소재를 줄지 적으세요. 여기서 네 카드가 그런 소재에 의존합니다."
+     }
+    ]
+   },
+   "tips": {
+    "title": "Claude Fable 5.2 예시에서 알 수 있는 것",
+    "items": [
+     {
+      "h": "한 문장으로 충분할 때가 있습니다",
+      "t": "UFO, 로고 리빌, \"코드만으로\" 출시 영상은 한 줄이었습니다. 6,000자 슬라이더 연구처럼 긴 명세는 정확한 결과가 필요할 때 씁니다."
+     },
+     {
+      "h": "크리에이터가 비용을 공개했습니다",
+      "t": "슬라이더 두 개는 $7.48과 $8.43, 직접 만든 출시 영상은 57분 동안 API 가격 기준 약 $21였습니다. 긴 작업은 예산을 잡으세요."
+     },
+     {
+      "h": "큰 작업은 에이전트로 돌립니다",
+      "t": "60초 출시 영상은 Opus 5.5 서브에이전트를 썼고 범죄 게임은 두 시간 넘게 걸렸습니다. 한 번의 API 호출이 아니라 Claude Code 같은 에이전트에서 돌리세요."
+     },
+     {
+      "h": "effort가 영향을 줍니다",
+      "t": "음악 카드는 Extra High, 마법사 영상은 high, 트레일러는 medium이었습니다. Fable 5.2는 모든 요청에서 사고하며 기본값은 high입니다."
+     },
+     {
+      "h": "Opus 5.5도 여전히 가깝습니다",
+      "t": "두 크리에이터가 같은 프롬프트를 두 모델에서 돌렸고, 한 명은 Opus 5.5 결과를 더 좋아했습니다. 모델을 바꾸기 전에 내 아이디어로 비교해 보세요."
+     }
+    ]
+   },
+   "faq": {
+    "title": "Claude Fable 5.2 영상 프롬프트: 자주 묻는 질문",
+    "items": [
+     {
+      "question": "Claude Fable 5.2로 영상을 만들 수 있나요?",
+      "answer": "HTML 페이지, Three.js 장면, Remotion·HyperFrames 프로젝트, Blender 스크립트, LilyPond 악보 같은 코드를 씁니다. 그 코드를 내 컴퓨터에서 렌더링해 영상으로 기록합니다."
+     },
+     {
+      "question": "이 Claude Fable 5.2 프롬프트는 원문인가요?",
+      "answer": "네. 모든 프롬프트를 작성자 본인의 게시물이나 답글과 한 글자씩 대조했고, 영상도 작성자가 그 프롬프트로 올린 것입니다. 카드마다 출처가 연결되어 있습니다."
+     },
+     {
+      "question": "이 Claude Fable 5.2 프롬프트를 무료로 써도 되나요? 결과물은 누구 것인가요?",
+      "answer": "프롬프트와 영상은 각 카드의 크리에이터 소유입니다. 출발점으로 쓰고, 다시 게시하기 전에 크리에이터의 조건을 확인하세요."
+     },
+     {
+      "question": "API로 Claude Fable 5.2 영상 프롬프트를 어떻게 돌리나요?",
+      "answer": "Messages 또는 Chat Completions API로 claude-fable-5-2 모델에 보내고 돌아온 코드를 저장합니다. APIKO에서는 응답 한 번의 출력이 32K 토큰으로 제한되므로 큰 작업은 에이전트에서 여러 차례 나눠 돌리세요."
+     },
+     {
+      "question": "Claude Fable 5.2 프롬프트 카드의 사용 버튼은 무엇을 하나요?",
+      "answer": "프롬프트가 채워진 Claude Fable 5.2 모델 페이지를 엽니다. 크리에이터가 쓴 노래나 프로젝트 폴더 같은 파일은 첨부되지 않습니다."
+     },
+     {
+      "question": "Claude Fable 5.2에는 어떤 effort를 써야 하나요?",
+      "answer": "Anthropic 기본값은 high이며 Fable 5.2는 모든 요청에서 사고합니다. 여기 음악 카드는 Extra High를 썼고 트레일러는 medium으로 약 10분 걸렸습니다."
+     },
+     {
+      "question": "내 Claude Fable 5.2 결과가 영상과 다른 이유는 무엇인가요?",
+      "answer": "실행할 때마다 결과가 달라지고, 크리에이터가 다른 effort, 도구, 기존 프로젝트나 여러 차례 피드백을 썼을 수 있습니다."
+     },
+     {
+      "question": "Claude Fable 5.2가 음악도 만드나요?",
+      "answer": "여러 카드가 Web Audio나 Python으로 코드 안에서 소리를 합성합니다. 가사 영상 하나는 크리에이터의 노래를 썼고, LilyPond 카드는 악보 자체를 씁니다."
+     },
+     {
+      "question": "영상 프롬프트에는 Claude Fable 5.2와 Claude Opus 5.5 중 무엇을 써야 하나요?",
+      "answer": "Anthropic은 Opus 5.5로 시작해 더 어렵고 긴 작업에 Fable 5.2를 쓰라고 권합니다. APIKO의 Claude Opus 5.5 영상 프롬프트 라이브러리와 비교해 보세요."
+     }
+    ]
+   },
+   "links": {
+    "title": "APIKO 더 보기",
+    "items": [
+     {
+      "label": "Claude Fable 5.2 모델 페이지",
+      "href": "/models/claude-fable-5-2"
+     },
+     {
+      "label": "Claude API 문서",
+      "href": "/docs/api-manual/text-series/claude"
+     },
+     {
+      "label": "Claude Opus 5.5 영상 프롬프트",
+      "href": "/claude-opus-5-5-video-prompts"
+     },
+     {
+      "label": "APIKO 채팅",
+      "href": "/chat"
+     },
+     {
+      "label": "GitHub의 Claude Fable 5.2 영상 프롬프트",
+      "href": "https://github.com/tong0619453646-dev/awesome-claude-fable-5.2-video-prompts"
+     }
+    ]
+   }
+  }
+ },
+ "cards": [
+  {
+   "id": "motion-graphics-01",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-01.mp4"
+    ],
+    "poster": "motion-graphics-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 15,
+   "ratio": "16:9",
+   "author": {
+    "name": "kaif9998",
+    "url": "https://x.com/kaif9998"
+   },
+   "sourceUrl": "https://x.com/kaif9998/status/2119903824848761287",
+   "needsReference": false,
+   "preview": "Claude Code , two prompts:\n\n1. \"make a 15 second animated video that says final goodbye to Opus 5.5 as Fable 5.2 is here and I switched to it\"\n2. \"make the video like it's your showreel\"",
+   "complete": true,
+   "prompt": "Claude Code , two prompts:\n\n1. \"make a 15 second animated video that says final goodbye to Opus 5.5 as Fable 5.2 is here and I switched to it\"\n2. \"make the video like it's your showreel\"",
+   "text": {
+    "en": {
+     "title": "Two short prompts for a goodbye showreel to Opus 5.5",
+     "summary": "Run in Claude Code: one line asks for a 15-second farewell video, a second line asks to make it a showreel.",
+     "tags": [
+      "Claude Code",
+      "Showreel"
+     ]
+    },
+    "zh": {
+     "title": "两句话做一支告别 Opus 5.5 的作品集短片",
+     "summary": "在 Claude Code 里先要一段 15 秒告别视频，再补一句「做成作品集」。",
+     "tags": [
+      "Claude Code",
+      "作品集短片"
+     ]
+    },
+    "zh-TW": {
+     "title": "兩句話做一支告別 Opus 5.5 的作品集短片",
+     "summary": "在 Claude Code 裡先要一段 15 秒告別影片，再補一句「做成作品集」。",
+     "tags": [
+      "Claude Code",
+      "作品集短片"
+     ]
+    },
+    "ko": {
+     "title": "두 문장으로 만든 Opus 5.5 작별 쇼릴",
+     "summary": "Claude Code에서 15초 작별 영상을 요청한 뒤 \"쇼릴처럼 만들어 줘\"를 덧붙입니다.",
+     "tags": [
+      "Claude Code",
+      "쇼릴"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-02",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-02.mp4"
+    ],
+    "poster": "motion-graphics-02.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   "seconds": 68,
+   "ratio": "1:1",
+   "author": {
+    "name": "ici_dab",
+    "url": "https://x.com/ici_dab"
+   },
+   "sourceUrl": "https://x.com/ici_dab/status/2119901910237098351",
+   "needsReference": false,
+   "preview": "the prompt: \"I need you to create the most impressive thing I can share with people when you launch. It needs to be embeddable in a post and i can preface it however you like. it needs to have a visceral impact on people to show what you can do and the range of capabilities. It",
+   "complete": false,
+   "prompt": "the prompt: \"I need you to create the most impressive thing I can share with people when you launch. It needs to be embeddable in a post and i can preface it however you like. it needs to have a visceral impact on people to show what you can do and the range of capabilities. It should grab them quickly. Be amazingly clever about this.\"",
+   "text": {
+    "en": {
+     "title": "Particle letters that become a galaxy, a helix and your name",
+     "summary": "An open brief: make the most impressive shareable thing you can. The result is an interactive particle piece with its own music.",
+     "tags": [
+      "Open brief",
+      "Particles"
+     ]
+    },
+    "zh": {
+     "title": "粒子文字变成星系、双螺旋，最后拼出你的名字",
+     "summary": "一段开放需求：做一个最能震撼人、能直接分享的作品。结果是带配乐的交互式粒子动画。",
+     "tags": [
+      "开放需求",
+      "粒子"
+     ]
+    },
+    "zh-TW": {
+     "title": "粒子文字變成星系、雙螺旋，最後拼出你的名字",
+     "summary": "一段開放需求：做一個最能震撼人、能直接分享的作品。結果是帶配樂的互動式粒子動畫。",
+     "tags": [
+      "開放需求",
+      "粒子"
+     ]
+    },
+    "ko": {
+     "title": "은하·이중나선을 거쳐 이름이 되는 파티클 글자",
+     "summary": "\"가장 인상적인 걸 만들어 달라\"는 열린 요청입니다. 음악이 붙은 인터랙티브 파티클 작품이 나왔습니다.",
+     "tags": [
+      "열린 요청",
+      "파티클"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-03",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-03.mp4"
+    ],
+    "poster": "motion-graphics-03.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 11,
+   "ratio": "16:9",
+   "author": {
+    "name": "N1njaCodex",
+    "url": "https://x.com/N1njaCodex"
+   },
+   "sourceUrl": "https://x.com/N1njaCodex/status/2119883560937001387",
+   "needsReference": false,
+   "preview": "Make \"Deep Dive Switch\", No. 063 in a series of web material studies: a depth switch that goes from light to dark, from the sea's surface to the floor of the abyss. Build it as one self-contained page with no libraries: raw WebGL2, Web Audio and a 2D pixel buffer. PAGE -",
+   "complete": false,
+   "prompt": "Make \"Deep Dive Switch\", No. 063 in a series of web material studies: a depth switch that goes from light to dark, from the sea's surface to the floor of the abyss. Build it as one self-contained page with no libraries: raw WebGL2, Web Audio and a 2D pixel buffer.\n\nPAGE\n- Editorial layout: a small kicker \"Material Studies / No. 063 · WebGL + Web Audio\", an italic serif title \"Deep Dive Switch.\", and a one-line caption.\n- The switch sits centred and large. Below it go three readouts (Depth, Zone, Music), a hint line and a \"Sound on/off\" button.\n- The whole page's colours (background, text, lines) follow the depth: pale aqua at the surface, near-black blue in the abyss.\n- It must work at phone width.\n\nTHE SWITCH\n- A pill-shaped switch in a moulded bezel: white glossy plastic at the surface, deep navy in the abyss.\n  - A soft drop shadow falls on the page and fades to nothing before the canvas edge.\n  - A slight inner shadow runs along the top of the track.\n- Inside it is a 176×50 pixel-art cross-section of the sea.\n  - Redraw it every frame on the CPU and show it with nearest sampling, never smoothed.\n  - Use whole device pixels per scene pixel where there is room.\n- The knob is a glass bathysphere: a vertical capsule of clear glass, a little taller than the track, drawn in a single full-canvas WebGL2 fragment shader.\n  - It magnifies what is under it (about 1.28×) and bends it.\n  - At its rim it splits R, G and B. A darker refraction band sits inside a bright edge, with a Fresnel tint and a faint aqua cast.\n  - Two highlights: a long soft streak at the upper left and a small dot at the lower right.\n  - Light gathers toward its foot, and it casts a soft shadow on the scene.\n- Motion:\n  - It follows the finger on a spring, lagging a little.\n  - It stretches sideways with speed and squashes vertically to keep its volume.\n  - It wobbles on a damped spring driven by its acceleration.\n- Controls:\n  - Drag the knob, or drag anywhere on the track.\n  - Tap to send it to the other end; it travels there on its spring.\n  - Arrow keys, Home/End and Space/Enter also work.\n  - The switch has role=\"slider\" with ARIA values.\n\nTHE SEA (left = shallow, right = deep; an original palette)\n- Sprites are filled shapes stamped with an automatic 1-px outline and a light top / dark bottom.\n- The sea floor, left to right:\n  - a sandy beach with a sandcastle;\n  - a reef plateau with rocks;\n  - a drop-off into rocky deep water;\n  - the abyssal floor rising again at the far right.\n- Up top on the left is sky with a sun, two flapping gulls and a little red sailboat bobbing on animated waves with a foam line.\n  - The surface is level over the shallows, then rises out of the picture toward the deep, so the view seems to sink.\n- The shallows:\n  - turquoise water with swaying slanted god rays and moving caustics on the sand;\n  - branching corals in pink, orange and violet, brain corals, swaying sea grass;\n  - an anemone with a little orange-and-white fish darting about it;\n  - a sea turtle gliding back and forth, paddling;\n  - a school of yellow fish circling over the reef that scatters away from the knob.\n- The twilight zone:\n  - the water darkens to deep blue;\n  - three translucent jellyfish, pink and violet, pulse and trail wavy tentacles; they glow softly and pulse faster when the knob comes near;\n  - every half minute a faint whale silhouette swims past in the background.\n- The midnight zone:\n  - a long swaying chain of glowing cyan-and-green beads (a siphonophore);\n  - small dark lanternfish with blinking light spots;\n  - marine snow drifting down.\n- The abyssal floor:\n  - a hydrothermal vent breathing bubbles;\n  - an anglerfish with a rod and a glowing lure;\n  - a treasure chest.\n\nLIGHT AND THE DIVE\n- Daylight falls off with depth and dims a little toward the floor. It is quantised and Bayer-dithered so the gradient steps like pixel art.\n- Below the shallows the bathysphere's searchlight comes on: a stepped, dithered pool of light around the knob, with a blue haze scattered in the water.\n- Inside the lens everything is shown lit.\n- Behind the knob trail rising bubbles and, in the dark, sparks of blue bioluminescence.\n- Glowing crescent echoes trail behind it: pale aqua in the shallows, cyan in the deep.\n- The lure lights its own little pool.\n- As the knob nears, the anglerfish turns and opens its toothy mouth wide, and its lure blazes.\n- At the very bottom the chest lid swings open on glowing gold, and gold glints fly up from it.\n\nSOUND — all synthesised live with Web Audio, original music\n- 84 BPM, a four-bar loop in D minor (Dm7 · B♭maj7 · Gm7 · A7sus4), on one lookahead-scheduled clock with a little swing.\n- Layers fade in and out with depth:\n  0. The surface: waves (filtered noise swelling slowly) and gull cries. The moment you go under, a splash, and the waves drop to a dull underwater roar.\n  1. The reef: a kalimba ostinato (sine with bright, quickly fading overtones, in a long reverb), with bubbles popping on the off-beats.\n  2. A soft dub beat: a round kick, rim clicks into a dotted echo, a swung shaker, a deep bass.\n  3. The twilight: slow detuned pads, a whale singing now and then (a gliding, vibrato tone through a formant filter), then sonar pings ringing in the echo.\n  4. The abyss: a breathing sub drone, a slow lub-dub heartbeat, and glassy arpeggios of high pentatonic notes ringing in the echo.\n- The music sits behind a gentle low-pass that closes a little with depth, about 5 dB under the switch's own sounds.\n- Switch sounds:\n  - a bubble bloop when grabbed, a plop when released;\n  - a water swish and bubble pops that grow with drag speed;\n  - a splash crossing the surface either way;\n  - a glass chime past each jellyfish;\n  - the angler's deep gulp;\n  - a fanfare when the chest opens: a rising kalimba arpeggio, a low boom and a shimmer.\n- Audio starts on the first touch; a Sound on/off button.\n\nREADOUTS\n- Depth, 0 → 6,000 m, mapped to the zones.\n- Zone: Surface / Sunlit / Twilight / Midnight / Abyss.\n- Music: Waves / Kalimba / Reef dub / Whale song / Sonar / Abyss.",
+   "text": {
+    "en": {
+     "title": "A volume slider that dives into an underwater world",
+     "summary": "A long spec for a WebGL2 and Web Audio switch with no libraries. The author reports $7.48 for the run.",
+     "tags": [
+      "WebGL",
+      "UI motion"
+     ]
+    },
+    "zh": {
+     "title": "一根潜入海底世界的音量滑块",
+     "summary": "长规格说明：纯 WebGL2 + Web Audio、不用任何库的开关组件。作者称这次花了 $7.48。",
+     "tags": [
+      "WebGL",
+      "界面动效"
+     ]
+    },
+    "zh-TW": {
+     "title": "一根潛入海底世界的音量滑桿",
+     "summary": "長規格說明：純 WebGL2 + Web Audio、不用任何函式庫的開關元件。作者說這次花了 $7.48。",
+     "tags": [
+      "WebGL",
+      "介面動態"
+     ]
+    },
+    "ko": {
+     "title": "바닷속 세계로 내려가는 볼륨 슬라이더",
+     "summary": "라이브러리 없이 WebGL2와 Web Audio만 쓰는 스위치의 긴 명세입니다. 작성자는 비용이 $7.48였다고 밝혔습니다.",
+     "tags": [
+      "WebGL",
+      "UI 모션"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-04",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-04.mp4"
+    ],
+    "poster": "motion-graphics-04.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 13,
+   "ratio": "16:9",
+   "author": {
+    "name": "vib3coded",
+    "url": "https://x.com/vib3coded"
+   },
+   "sourceUrl": "https://x.com/vib3coded/status/2119876781700505627",
+   "needsReference": false,
+   "preview": "Make \"Daybreak Switch\", No. 062 in a series of web material studies: a night-to-morning toggle in its own original style, as a single self-contained page (no libraries; raw WebGL2 + Web Audio + a 2D pixel buffer). Editorial layout: a small \"Material Studies / No. 062 · WebGL +",
+   "complete": false,
+   "prompt": "Make \"Daybreak Switch\", No. 062 in a series of web material studies: a night-to-morning toggle in its own original style, as a single self-contained page (no libraries; raw WebGL2 + Web Audio + a 2D pixel buffer). Editorial layout: a small \"Material Studies / No. 062 · WebGL + Web Audio\" kicker, an italic serif title \"Daybreak Switch.\", a one-line caption; the switch centred and large; below it readouts (Clock, Light, Music), a hint line and a \"Sound on/off\" button. The whole page's colours (background, text, lines) follow the switch from a dark dusk-indigo at night to a pale lavender-grey by day. Works at phone width.\n\nTHE SWITCH\n- A pill-shaped switch in a moulded bezel: white glossy plastic by day, graphite by night. A soft drop shadow falls on the page and fades to nothing before the canvas edge, with a slight inner shadow along the top of the track.\n- Inside, a 176×50 pixel-art room, redrawn every frame on the CPU and shown with nearest sampling, never smoothed. Whole device pixels per scene pixel where there is room.\n- The knob is a vertical capsule of clear jelly glass, a little taller than the track, drawn in one full-canvas WebGL2 fragment shader:\n  - it magnifies (~1.28×) and bends the pixels under it;\n  - it splits R/G/B at its rim, with a darker refraction band, a bright edge and a Fresnel tint;\n  - two highlights: a long soft streak at the upper left and a small dot at the lower right;\n  - light focused toward its foot, and a soft shadow on the room.\n- The knob lags the finger on a spring, stretches horizontally with speed (squashing vertically to keep its volume), and wobbles on a damped spring fed by its acceleration.\n- Inside the knob the room is always shown fully lit: the glass carries the morning.\n- Controls: drag the knob or drag anywhere on the track; tap to toggle to the other end (it travels there on its spring); arrow keys, Home/End, Space/Enter; role=\"slider\" with aria values.\n\nTHE ROOM (original, cosy palette)\nBuilt from filled shapes stamped with an automatic 1-px outline and a light top / dark bottom, so every object reads as a pixel sprite:\n- butter-yellow diamond wallpaper, teal wainscot, plank floor, a coral/cream/teal striped rug;\n- a big window with curtains over a town of roofs;\n- a shelf of coloured jelly jars and books, a potted plant;\n- a brass floor lamp with a mint shade;\n- a red boombox on a wooden cabinet, a framed picture of a little jelly shark, a round wall clock, a blue panelled door;\n- a string of coloured bulbs sagging across the ceiling;\n- a purple pet bed under the window.\n\nLIGHT AND THE MORNING\n- The knob drags the dawn across the room: left of it is day, right of it still night (indigo ambient). The edge dissolves in a 4×4 Bayer dither, with a warm dawn band just behind the knob.\n- The window sky runs from night (navy, twinkling stars, a crescent moon, lit town windows) through dawn (violet to peach, the sun coming up) to day (blue, sun high, clouds drifting).\n- Moonlight shafts through the window at night, warm sun shafts by day.\n- The lamp clicks on early and casts a banded warm pool.\n- Each ceiling bulb lights as the knob passes it, with a coloured dithered glow.\n- Disco spots sweep the room at the party.\n- The wall clock runs from 02:00 to 10:00.\n\nTHE STORY, BY POSITION\n- An orange tabby cat:\n  - asleep, curled in its bed, breathing, with z's rising;\n  - awake, lying with its head up and blinking;\n  - sitting up;\n  - standing and walking out onto the rug;\n  - at the end dancing on its hind legs to the beat, in sunglasses, with pink ghost trails.\n- The plant sways and the boombox speakers thump with the beat; music notes float up from the boombox.\n- A disco ball comes down from the ceiling; confetti sparkles fall.\n- Glowing crescent echoes (coral to pink) trail behind the moving knob.\n- Near the end (from about 08:24 on the clock) a puppy waits outside: warm light shows under the door with the shadows of its shifting paws, and it knocks. On each knock the door jolts 2 px, arcs of sound spring off it, and a \"!\" pops up over the cat; the knocking repeats every ~2.8 s until it's let in. At the very end the door swings open on a warm orange hallway and a white puppy with brown ears comes in, bobbing to the beat.\n\nSOUND — all synthesised live with Web Audio, original music\n- 100 BPM, a four-bar loop in F (Fmaj7 · Am7 · Dm7 · B♭maj7), on one lookahead-scheduled clock with a little swing.\n- Layers fade in by the knob's position:\n  0. Night: crickets (AM-chirped sine trains) and soft wind.\n  1. A music box arpeggiating the chords (bell partials, short room reverb).\n  2. A lo-fi beat (kick, noise-and-tone snare, hats) and a round bass.\n  3. Warm detuned pads and a square-wave tune with vibrato.\n  4. The party: four on the floor, claps, open hats, sub bass, the rest of the mix pumping under the kick.\n- The music sits behind a low-pass that opens with the dawn, and ~5 dB under the switch's own sounds.\n- Switch sounds:\n  - a glass tink plus a jelly blop when grabbed, a plop when released;\n  - a band-passed noise rub following the drag speed;\n  - a pentatonic pluck for every bulb lit (a glissando when you sweep across), softer and lower when one goes out;\n  - the lamp's double click and a cat's \"mrrp\" (formant-filtered saw) when it wakes;\n  - a riser and crash into the party, and a record-brake when you drag back out of the beat;\n  - the puppy's yip when it comes in.\n- The knock, like a real heavy door knock: three hits 0.25 s apart, panned toward the door. Each hit is a knuckle click (band-passed noise) over a deep thump that sags from ~98 to ~60 Hz over a quarter second, with quicker overtones (190→128 Hz, 410 Hz) and soft saturation so small speakers hear it. The music ducks to ~45% under each hit, and the knocks peak at 3–4× the music's level.\n- Audio starts on the first touch; a Sound on/off button.\n- Readouts: Clock (02:00–10:00), Light (Night / First light / Sunrise / Morning / Party), Music (Crickets / Music box / Beat / Band / Party).",
+   "text": {
+    "en": {
+     "title": "A night-to-morning slider with a cozy room inside",
+     "summary": "Same material-study format: one self-contained page in WebGL2 and Web Audio. The author reports 10 minutes and $8.43.",
+     "tags": [
+      "WebGL",
+      "UI motion"
+     ]
+    },
+    "zh": {
+     "title": "从黑夜滑到清晨的温馨小屋开关",
+     "summary": "同一套「材质研究」格式，单页 WebGL2 + Web Audio。作者称用了 10 分钟、$8.43。",
+     "tags": [
+      "WebGL",
+      "界面动效"
+     ]
+    },
+    "zh-TW": {
+     "title": "從黑夜滑到清晨的溫馨小屋開關",
+     "summary": "同一套「材質研究」格式，單頁 WebGL2 + Web Audio。作者說用了 10 分鐘、$8.43。",
+     "tags": [
+      "WebGL",
+      "介面動態"
+     ]
+    },
+    "ko": {
+     "title": "밤에서 아침으로 넘어가는 아늑한 방 스위치",
+     "summary": "같은 \"소재 연구\" 형식으로, WebGL2와 Web Audio만 쓴 단일 페이지입니다. 작성자는 10분, $8.43이 들었다고 밝혔습니다.",
+     "tags": [
+      "WebGL",
+      "UI 모션"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-05",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-05.mp4"
+    ],
+    "poster": "motion-graphics-05.webp",
+    "width": 1080,
+    "height": 1080
+   },
+   "seconds": 36,
+   "ratio": "1:1",
+   "author": {
+    "name": "hello_amani",
+    "url": "https://x.com/hello_amani"
+   },
+   "sourceUrl": "https://x.com/hello_amani/status/2119873980786237842",
+   "needsReference": false,
+   "preview": "the prompt was: make my logo reveal in 3D with chromatic metal and grids\nand bunch of iteration",
+   "complete": true,
+   "prompt": "the prompt was: make my logo reveal in 3D with chromatic metal and grids\nand bunch of iteration",
+   "text": {
+    "en": {
+     "title": "A chrome-metal 3D logo reveal",
+     "summary": "One sentence: reveal my logo in 3D with chromatic metal, grids and many iterations.",
+     "tags": [
+      "One-liner",
+      "Logo reveal"
+     ]
+    },
+    "zh": {
+     "title": "铬金属质感的 3D Logo 揭幕",
+     "summary": "一句话：用铬金属和网格做我的 Logo 3D 揭幕，多迭代几轮。",
+     "tags": [
+      "一句话",
+      "Logo 动画"
+     ]
+    },
+    "zh-TW": {
+     "title": "鉻金屬質感的 3D Logo 揭幕",
+     "summary": "一句話：用鉻金屬和網格做我的 Logo 3D 揭幕，多迭代幾輪。",
+     "tags": [
+      "一句話",
+      "Logo 動畫"
+     ]
+    },
+    "ko": {
+     "title": "크롬 금속 질감의 3D 로고 리빌",
+     "summary": "\"크롬 금속과 그리드로 내 로고를 3D로 보여 주고 여러 번 다듬어 줘\"라는 한 문장입니다.",
+     "tags": [
+      "한 줄 프롬프트",
+      "로고 애니메이션"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-06",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-06.mp4"
+    ],
+    "poster": "motion-graphics-06.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 15,
+   "ratio": "16:9",
+   "author": {
+    "name": "himanshutwtxs",
+    "url": "https://x.com/himanshutwtxs"
+   },
+   "sourceUrl": "https://x.com/himanshutwtxs/status/2120017106804900304",
+   "needsReference": false,
+   "preview": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out",
+   "complete": true,
+   "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out",
+   "text": {
+    "en": {
+     "title": "The one-line 15-second motion designer showreel",
+     "summary": "The same sentence many people ran on Opus 5.5, now on Fable 5.2: easing, type, depth and timing in one reel.",
+     "tags": [
+      "One-liner",
+      "Showreel"
+     ]
+    },
+    "zh": {
+     "title": "一句话 15 秒动效设计师作品集",
+     "summary": "很多人在 Opus 5.5 上跑过的同一句话，换成 Fable 5.2：缓动、字体、景深、节奏都在一支片里。",
+     "tags": [
+      "一句话",
+      "作品集短片"
+     ]
+    },
+    "zh-TW": {
+     "title": "一句話 15 秒動態設計師作品集",
+     "summary": "很多人在 Opus 5.5 上跑過的同一句話，換成 Fable 5.2：緩動、字體、景深、節奏都在一支片裡。",
+     "tags": [
+      "一句話",
+      "作品集短片"
+     ]
+    },
+    "ko": {
+     "title": "한 줄로 만든 15초 모션 디자이너 쇼릴",
+     "summary": "많은 사람이 Opus 5.5에서 돌린 같은 문장을 Fable 5.2로 돌렸습니다. 이징, 타이포, 깊이, 타이밍이 한 편에 담깁니다.",
+     "tags": [
+      "한 줄 프롬프트",
+      "쇼릴"
+     ]
+    }
+   }
+  },
+  {
+   "id": "product-launch-01",
+   "category": "product-launch",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-01.mp4"
+    ],
+    "poster": "product-launch-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 60,
+   "ratio": "16:9",
+   "author": {
+    "name": "grafikcem",
+    "url": "https://x.com/grafikcem"
+   },
+   "sourceUrl": "https://x.com/grafikcem/status/2119910525064937806",
+   "needsReference": false,
+   "preview": "Bugün duyurulmana özel Fable 5.2 modeli için opus 5.5 subagentları kullanarak kendine 60 saniyelik bir tanıtım animasyon filmi hazırla.",
+   "complete": true,
+   "prompt": "Bugün duyurulmana özel Fable 5.2 modeli için opus 5.5 subagentları kullanarak kendine 60 saniyelik bir tanıtım animasyon filmi hazırla.",
+   "text": {
+    "en": {
+     "title": "A 60-second launch film made with Opus 5.5 subagents",
+     "summary": "Turkish prompt: on launch day, use Opus 5.5 subagents to make a 60-second animated film about Fable 5.2.",
+     "tags": [
+      "Subagents",
+      "Launch film"
+     ]
+    },
+    "zh": {
+     "title": "调用 Opus 5.5 子代理做的 60 秒发布片",
+     "summary": "土耳其语提示词：在发布当天，用 Opus 5.5 子代理给 Fable 5.2 做一支 60 秒动画宣传片。",
+     "tags": [
+      "子代理",
+      "发布片"
+     ]
+    },
+    "zh-TW": {
+     "title": "呼叫 Opus 5.5 子代理做的 60 秒發表片",
+     "summary": "土耳其語提示詞：在發表當天，用 Opus 5.5 子代理給 Fable 5.2 做一支 60 秒動畫宣傳片。",
+     "tags": [
+      "子代理",
+      "發表片"
+     ]
+    },
+    "ko": {
+     "title": "Opus 5.5 서브에이전트로 만든 60초 출시 영상",
+     "summary": "튀르키예어 프롬프트로, 출시 당일 Opus 5.5 서브에이전트를 써서 Fable 5.2의 60초 애니메이션 영상을 만들게 합니다.",
+     "tags": [
+      "서브에이전트",
+      "출시 영상"
+     ]
+    }
+   }
+  },
+  {
+   "id": "product-launch-02",
+   "category": "product-launch",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-02.mp4"
+    ],
+    "poster": "product-launch-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 74,
+   "ratio": "16:9",
+   "author": {
+    "name": "furkancavlakcom",
+    "url": "https://x.com/furkancavlakcom"
+   },
+   "sourceUrl": "https://x.com/furkancavlakcom/status/2119896886345695521",
+   "needsReference": false,
+   "preview": "Kendi lansman videonu yap. Sadece kodla.",
+   "complete": true,
+   "prompt": "Kendi lansman videonu yap. Sadece kodla.",
+   "text": {
+    "en": {
+     "title": "\"Make your own launch video. Code only.\"",
+     "summary": "One Turkish sentence. The author reports 57 minutes, about $21 at API prices, 1,702 lines of Python, 2,220 frames and synthesized music.",
+     "tags": [
+      "Code only",
+      "Launch film"
+     ]
+    },
+    "zh": {
+     "title": "「做你自己的发布视频，只用代码」",
+     "summary": "一句土耳其语。作者称用了 57 分钟、按 API 价约 $21、1,702 行 Python、2,220 帧，音乐也是合成的。",
+     "tags": [
+      "纯代码",
+      "发布片"
+     ]
+    },
+    "zh-TW": {
+     "title": "「做你自己的發表影片，只用程式碼」",
+     "summary": "一句土耳其語。作者說用了 57 分鐘、按 API 價約 $21、1,702 行 Python、2,220 格，音樂也是合成的。",
+     "tags": [
+      "純程式碼",
+      "發表片"
+     ]
+    },
+    "ko": {
+     "title": "\"네 출시 영상을 직접 만들어. 코드만으로.\"",
+     "summary": "튀르키예어 한 문장입니다. 작성자는 57분, API 가격 기준 약 $21, Python 1,702줄, 2,220프레임이 들었고 음악도 합성했다고 밝혔습니다.",
+     "tags": [
+      "코드만으로",
+      "출시 영상"
+     ]
+    }
+   }
+  },
+  {
+   "id": "product-launch-03",
+   "category": "product-launch",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-03.mp4"
+    ],
+    "poster": "product-launch-03.webp",
+    "width": 720,
+    "height": 1280
+   },
+   "seconds": 32,
+   "ratio": "9:16",
+   "author": {
+    "name": "midudev",
+    "url": "https://x.com/midudev"
+   },
+   "sourceUrl": "https://x.com/midudev/status/2119876297304203273",
+   "needsReference": true,
+   "preview": "El prompt:  Crea un trailer en video animado para compartir en redes sociales de este proyecto. Quiero que lo vendas de forma espectacular, que tenga sonido y animaciones brutales. Usa hyperframes.\n\nEsfuerzo medio.",
+   "complete": true,
+   "prompt": "El prompt:  Crea un trailer en video animado para compartir en redes sociales de este proyecto. Quiero que lo vendas de forma espectacular, que tenga sonido y animaciones brutales. Usa hyperframes.\n\nEsfuerzo medio.",
+   "text": {
+    "en": {
+     "title": "A social trailer for a course, built with HyperFrames",
+     "summary": "Spanish prompt run inside the author's project: sell it with sound and bold animation, medium effort. About 10 minutes.",
+     "tags": [
+      "HyperFrames",
+      "Trailer"
+     ]
+    },
+    "zh": {
+     "title": "用 HyperFrames 做的课程社媒预告片",
+     "summary": "西班牙语提示词，在作者自己的项目里运行：要有声音、动画要炸，medium 档位，约 10 分钟。",
+     "tags": [
+      "HyperFrames",
+      "预告片"
+     ]
+    },
+    "zh-TW": {
+     "title": "用 HyperFrames 做的課程社群預告片",
+     "summary": "西班牙語提示詞，在作者自己的專案裡執行：要有聲音、動畫要炸，medium 檔位，約 10 分鐘。",
+     "tags": [
+      "HyperFrames",
+      "預告片"
+     ]
+    },
+    "ko": {
+     "title": "HyperFrames로 만든 강의 소셜 트레일러",
+     "summary": "작성자의 프로젝트 안에서 돌린 스페인어 프롬프트입니다. 소리와 강한 애니메이션을 요청했고 medium 단계로 약 10분 걸렸습니다.",
+     "tags": [
+      "HyperFrames",
+      "트레일러"
+     ]
+    }
+   }
+  },
+  {
+   "id": "product-launch-04",
+   "category": "product-launch",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-04.mp4"
+    ],
+    "poster": "product-launch-04.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 298,
+   "ratio": "16:9",
+   "author": {
+    "name": "czzzzzzJ_",
+    "url": "https://x.com/czzzzzzJ_"
+   },
+   "sourceUrl": "https://x.com/czzzzzzJ_/status/2120023093464682817",
+   "needsReference": true,
+   "preview": "你现在在我的知识站项目目录下，完整地调研我知识站上所有的业务、提供的内容，以及我的商业模式。使用 opuscar这个库帮我生成我的知识站宣传视频，整体风格我希望是像苹果的发布会那种风格质感。素材可以自行搜索和获取截屏。关于我不了解的内容，DOC 文件夹下有我的个人介绍。在整个宣传片制作前，你有一次向我提问的机会，收集我的想法，然后我要求你直接成片。",
+   "complete": true,
+   "prompt": "你现在在我的知识站项目目录下，完整地调研我知识站上所有的业务、提供的内容，以及我的商业模式。使用 opuscar这个库帮我生成我的知识站宣传视频，整体风格我希望是像苹果的发布会那种风格质感。素材可以自行搜索和获取截屏。关于我不了解的内容，DOC 文件夹下有我的个人介绍。在整个宣传片制作前，你有一次向我提问的机会，收集我的想法，然后我要求你直接成片。",
+   "text": {
+    "en": {
+     "title": "A keynote-style promo film for a knowledge site, one prompt",
+     "summary": "Chinese prompt run in the site's project folder: research the business, ask one round of questions, then deliver an Apple-keynote style film.",
+     "tags": [
+      "Project folder",
+      "Promo film"
+     ]
+    },
+    "zh": {
+     "title": "一条提示词做出发布会质感的知识站宣传片",
+     "summary": "在知识站项目目录里运行：先调研业务，只问一轮问题，然后直接成片，风格像苹果发布会。",
+     "tags": [
+      "项目目录",
+      "宣传片"
+     ]
+    },
+    "zh-TW": {
+     "title": "一條提示詞做出發表會質感的知識站宣傳片",
+     "summary": "在知識站專案目錄裡執行：先調研業務，只問一輪問題，然後直接成片，風格像蘋果發表會。",
+     "tags": [
+      "專案目錄",
+      "宣傳片"
+     ]
+    },
+    "ko": {
+     "title": "프롬프트 하나로 만든 키노트풍 지식 사이트 홍보 영상",
+     "summary": "사이트 프로젝트 폴더에서 돌린 중국어 프롬프트입니다. 사업을 조사하고 질문은 한 번만 한 뒤 애플 키노트 느낌의 영상을 바로 만듭니다.",
+     "tags": [
+      "프로젝트 폴더",
+      "홍보 영상"
+     ]
+    }
+   }
+  },
+  {
+   "id": "short-film-01",
+   "category": "short-film",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-01.mp4"
+    ],
+    "poster": "short-film-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 90,
+   "ratio": "16:9",
+   "author": {
+    "name": "0kncn",
+    "url": "https://x.com/0kncn"
+   },
+   "sourceUrl": "https://x.com/0kncn/status/2119901782482543073",
+   "needsReference": false,
+   "preview": "Create a 2D anime short. It must look completely like real Japanese anime, as if it were taken directly from a finished theatrical anime film. This is traditional-looking, hand-drawn 2D anime, not a 3D animation, a moving illustration, or a stylized web graphic. Build everything",
+   "complete": false,
+   "prompt": "Create a 2D anime short. It must look completely like real Japanese anime, as if it were taken directly from a finished theatrical anime film. This is traditional-looking, hand-drawn 2D anime, not a 3D animation, a moving illustration, or a stylized web graphic.\n\nBuild everything in Blender from Python, render it in Eevee, then ink and paint every frame in a second pass. Deliver one 1920x1080, 24 fps MP4 with a synthesized soundtrack. Use any tools, libraries, references, guides, literally anything, as long as the final result looks 100% like hand-drawn 2D anime.\n\nUse theatrical anime as the art style reference for the design, line work, painted backgrounds, color and atmosphere. The film is 90 seconds long (2160 frames), in 42 shots. Its hero is a steam locomotive that transforms into a robot. No people appear in the film.\n\nHERO\nNo. 9, a 1940s 2-8-2 freight locomotive with a four-axle tender, 23 m long, asleep for decades in a mountain engine shed: matte black boiler with rust runs, faded red wheel centres and buffer beam, brass number plate \"9\", one large headlamp, two amber marker lamps, moss on the running boards, ivy through the cab windows, and a stork's nest on the cab roof. As a robot it stands 21 m tall with its shoulders at 17 m. It is an original design, not a character from any existing series. It moves on twos, slow and heavy. Its wheels never slip and its feet never slide.\n\nTRANSFORM\nOne transformation, at full speed, 120 frames, in five stages of 24 frames. Every part is rigid: nothing stretches, nothing vanishes, nothing appears. Each part travels on a hinge or a slide you can see.\n1. Legs: the tender uncouples, splits lengthwise and swings down; its two bogies lock as feet, the coal stays in bunkers on the calves.\n2. Hips: the cab drops and widens into the pelvis; the trailing truck folds onto the lower back.\n3. Torso: the boiler tilts upright, firebox at the waist, smokebox at the top; the chimney and steam dome end on the upper back and keep venting.\n4. Arms: the running boards swing out with the cylinders as shoulders, the piston and connecting rods as forearms, and hands with three fingers and a thumb unfolding from the valve gear; the front driving wheels ride up as shoulder discs, the rear ones fold to hips and knees.\n5. Head: the smokebox door hinges forward as the chest plate with the headlamp at its centre; a riveted helmet rises from the smokebox with one dark visor slit and the two marker lamps as amber eyes; the cowcatcher folds up as a collar.\nThe cab roof panel rides up to the right shoulder and carries the stork's nest, never tilted more than 10 degrees.\nStages 1-3 happen on the rails, with the first strides landing on the ballast either side of the track. Stages 4-5 happen in the air.\n\nWORLD\nA single-track mountain railway at real scale. At the top, an ore mine with a loading bunker and a rake of twelve four-wheel hopper wagons. The line descends through larch forest and a short rock tunnel to a viaduct: seven 18 m steel girder spans on stone piers, 126 m long, the deck 17 m above a turquoise meltwater river 3 m deep. Beyond it, a small station: a stone engine shed, a water tower, a semaphore signal with an alarm bell, a signal box, a siding ending in a sand drag. Snow peaks behind, a cliff face above the viaduct, telegraph poles along the whole line.\n\nSTORY\nA clear spring morning in the valley. Meltwater loosens the cliff: a rockfall hits the middle pier of the viaduct, the pier collapses into the river and the two girders it carried sag into a V, held only by the rails. Up at the mine the shock snaps a coupling and the twelve loaded wagons start to roll downhill, unmanned. At the station the semaphore drops to danger and the bell rings. In the dark shed the firebox glows, the pressure needle climbs, the headlamp lights; the stork flies up. No. 9 bursts through the shed doors tearing ivy and rust, and charges up the grade with the wagons coming down the other side. On the approach it transforms at full speed, leaps from the abutment, lands crouched in the river, wades to the fallen pier, and lifts the sagging joint onto its shoulders and raised hands. The wagons hit the viaduct: it sinks 0.3 m as each one passes over and holds. The rake runs through the station into the sand drag and stops. No. 9 does not come back out. It locks its knees and stays as the new pier. The steam thins, the stork returns to its nest, the visor dims.\n\nLIGHT\nHigh-key anime light, never murky: a morning sun from the south-east, a saturated cobalt sky, white cumulus with lavender shadows, snow peaks with blue shadows, fresh green larch, a turquoise river with drawn white water. Light only changes with a cause you can see: rock dust dims the gorge for 3 seconds, steam whites out a frame, the firebox throws orange onto the shed walls. Cel light with hard shadows, gouache backgrounds, ink lines on every machine, rail and building, effects drawn on twos: steam as inked rolling shapes with a flat shadow tone, water as inked sheets with foam crowns, dust as drawn clouds, never particle mush.\n\nSOUND\nA synthesized orchestra on a 144 bpm grid: one beat is 10 frames, and every cut lands on a multiple of 5 frames. A hopeful theme on clarinet and horn, the collapse in E minor, a 12/8 chase with the exhaust chuff as percussion at four beats per wheel revolution, a heavy 3/4 for the hold with one low drum per wagon. 16 hits land exactly on the picture: the rockfall, the pier, the coupling, the signal arm, the shed doors, each transformation lock, the landing, the lift, the first and last wagon. The steam whistle is heard twice: once on waking, once on the hold.\n\nFORMAT\nWrite the film as a Python story clock: one state per frame for every pose, camera, wheel angle, rod position, transformation part, wagon, effect and sound cue.\n\nCHECKS\nBefore the final render a script tests every frame on the real meshes: no part of No. 9 goes through another part, in either form or at any frame of the transformation; the total volume of its parts is the same in both forms; every wheel on a rail turns exactly as far as it travels; planted feet do not move; No. 9 never goes through the track, the shed, the viaduct or the riverbed; the wagons stay on the rails and never touch each other except at the couplings; the camera never enters a mesh, the cliff or the water; nothing jumps between frames.",
+   "text": {
+    "en": {
+     "title": "A steam locomotive that turns into a robot, as 2D anime",
+     "summary": "A long spec: build everything in Blender from Python, render in Eevee, ink and paint each frame, and synthesize the music. 90 seconds.",
+     "tags": [
+      "Blender",
+      "Anime"
+     ]
+    },
+    "zh": {
+     "title": "蒸汽火车变形成机器人的 2D 动画短片",
+     "summary": "长规格说明：全部在 Blender 里用 Python 搭建，Eevee 渲染，再逐帧描线上色，音乐自己合成。90 秒。",
+     "tags": [
+      "Blender",
+      "日式动画"
+     ]
+    },
+    "zh-TW": {
+     "title": "蒸汽火車變形成機器人的 2D 動畫短片",
+     "summary": "長規格說明：全部在 Blender 裡用 Python 搭建，Eevee 算圖，再逐格描線上色，音樂自己合成。90 秒。",
+     "tags": [
+      "Blender",
+      "日式動畫"
+     ]
+    },
+    "ko": {
+     "title": "로봇으로 변신하는 증기기관차 2D 애니메이션",
+     "summary": "긴 명세입니다. Blender에서 Python으로 모두 만들고 Eevee로 렌더링한 뒤 프레임마다 선과 색을 입히고 음악도 합성합니다. 90초.",
+     "tags": [
+      "Blender",
+      "애니메이션"
+     ]
+    }
+   }
+  },
+  {
+   "id": "short-film-02",
+   "category": "short-film",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-02.mp4"
+    ],
+    "poster": "short-film-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 30,
+   "ratio": "16:9",
+   "author": {
+    "name": "danteeonsol",
+    "url": "https://x.com/danteeonsol"
+   },
+   "sourceUrl": "https://x.com/danteeonsol/status/2119887623070077213",
+   "needsReference": false,
+   "preview": "make me a 30 second video of a UFO visiting Area 51 and greeting humans, ultra detailed, cinematic lighting",
+   "complete": true,
+   "prompt": "make me a 30 second video of a UFO visiting Area 51 and greeting humans, ultra detailed, cinematic lighting",
+   "text": {
+    "en": {
+     "title": "A UFO lands at Area 51 and greets humans",
+     "summary": "One sentence. The author says it was written in three.js and Remotion with no imported models, textures or stock audio.",
+     "tags": [
+      "One-liner",
+      "Three.js"
+     ]
+    },
+    "zh": {
+     "title": "UFO 降落 51 区并和人类打招呼",
+     "summary": "一句话。作者说全部用 three.js + Remotion 写成，没有外部模型、贴图和素材音效。",
+     "tags": [
+      "一句话",
+      "Three.js"
+     ]
+    },
+    "zh-TW": {
+     "title": "UFO 降落 51 區並和人類打招呼",
+     "summary": "一句話。作者說全部用 three.js + Remotion 寫成，沒有外部模型、貼圖和素材音效。",
+     "tags": [
+      "一句話",
+      "Three.js"
+     ]
+    },
+    "ko": {
+     "title": "51구역에 내려와 사람들에게 인사하는 UFO",
+     "summary": "한 문장입니다. 작성자는 외부 모델, 텍스처, 스톡 오디오 없이 three.js와 Remotion으로 모두 만들었다고 밝혔습니다.",
+     "tags": [
+      "한 줄 프롬프트",
+      "Three.js"
+     ]
+    }
+   }
+  },
+  {
+   "id": "short-film-03",
+   "category": "short-film",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-03.mp4"
+    ],
+    "poster": "short-film-03.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 26,
+   "ratio": "16:9",
+   "author": {
+    "name": "other__reality",
+    "url": "https://x.com/other__reality"
+   },
+   "sourceUrl": "https://x.com/other__reality/status/2119885430627913784",
+   "needsReference": true,
+   "preview": "Create an animated video of clawd creating and releasing Claude Fable 5.2",
+   "complete": true,
+   "prompt": "Create an animated video of clawd creating and releasing Claude Fable 5.2",
+   "text": {
+    "en": {
+     "title": "A little wizard creates and releases Fable 5.2",
+     "summary": "Run at high effort on top of the author's existing animation base, so you need a similar starting project.",
+     "tags": [
+      "Character",
+      "Animation"
+     ]
+    },
+    "zh": {
+     "title": "小巫师亲手造出并发布 Fable 5.2",
+     "summary": "high 档位，在作者已有的动画底稿上运行，复现时需要一个类似的起始项目。",
+     "tags": [
+      "角色",
+      "动画"
+     ]
+    },
+    "zh-TW": {
+     "title": "小巫師親手造出並發表 Fable 5.2",
+     "summary": "high 檔位，在作者已有的動畫底稿上執行，重現時需要一個類似的起始專案。",
+     "tags": [
+      "角色",
+      "動畫"
+     ]
+    },
+    "ko": {
+     "title": "Fable 5.2를 만들어 공개하는 작은 마법사",
+     "summary": "high 단계로 작성자가 이미 가진 애니메이션 기반 위에서 돌렸으므로, 따라 하려면 비슷한 시작 프로젝트가 필요합니다.",
+     "tags": [
+      "캐릭터",
+      "애니메이션"
+     ]
+    }
+   }
+  },
+  {
+   "id": "short-film-04",
+   "category": "short-film",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-04.mp4"
+    ],
+    "poster": "short-film-04.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 28,
+   "ratio": "16:9",
+   "author": {
+    "name": "wshuyi",
+    "url": "https://x.com/wshuyi"
+   },
+   "sourceUrl": "https://x.com/wshuyi/status/2120014892040417720",
+   "needsReference": false,
+   "preview": "不使用任何技能，做一段纯编程形成的动画视频：剑齿虎的捕猎。不用配音，你自己编程生成音效，时长控制在 30 秒以内",
+   "complete": true,
+   "prompt": "不使用任何技能，做一段纯编程形成的动画视频：剑齿虎的捕猎。不用配音，你自己编程生成音效，时长控制在 30 秒以内",
+   "text": {
+    "en": {
+     "title": "A sabertooth cat hunts a bison, code only",
+     "summary": "Chinese prompt: no skills, pure code animation, program your own sound effects, under 30 seconds.",
+     "tags": [
+      "Code only",
+      "Wildlife"
+     ]
+    },
+    "zh": {
+     "title": "剑齿虎捕猎，纯代码动画",
+     "summary": "中文提示词：不用任何技能，纯编程动画，音效自己编程生成，30 秒以内。",
+     "tags": [
+      "纯代码",
+      "动物"
+     ]
+    },
+    "zh-TW": {
+     "title": "劍齒虎捕獵，純程式碼動畫",
+     "summary": "中文提示詞：不用任何技能，純程式動畫，音效自己用程式產生，30 秒以內。",
+     "tags": [
+      "純程式碼",
+      "動物"
+     ]
+    },
+    "ko": {
+     "title": "코드만으로 만든 검치호랑이의 사냥",
+     "summary": "중국어 프롬프트로, 스킬 없이 순수 코드 애니메이션을 만들고 효과음도 직접 코드로 생성하며 30초 이내로 하게 합니다.",
+     "tags": [
+      "코드만으로",
+      "동물"
+     ]
+    }
+   }
+  },
+  {
+   "id": "3d-scenes-01",
+   "category": "3d-scenes",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "3d-scenes-01.mp4"
+    ],
+    "poster": "3d-scenes-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 30,
+   "ratio": "16:9",
+   "author": {
+    "name": "kplikethebird",
+    "url": "https://x.com/kplikethebird"
+   },
+   "sourceUrl": "https://x.com/kplikethebird/status/2119900775727902732",
+   "needsReference": false,
+   "preview": "Build an immersive, historically accurate 3D model of Jerusalem during the week of Jesus's final visit using Blender.",
+   "complete": true,
+   "prompt": "Build an immersive, historically accurate 3D model of Jerusalem during the week of Jesus's final visit using Blender.",
+   "text": {
+    "en": {
+     "title": "An immersive 3D model of ancient Jerusalem in Blender",
+     "summary": "One sentence asking for a historically accurate city during one week in its history. The tour shows the Temple, gardens and palaces.",
+     "tags": [
+      "Blender",
+      "History"
+     ]
+    },
+    "zh": {
+     "title": "用 Blender 搭的古耶路撒冷沉浸式 3D 模型",
+     "summary": "一句话，要求按史实还原某一周的整座城市。成片巡游了圣殿、园林和宫殿。",
+     "tags": [
+      "Blender",
+      "历史"
+     ]
+    },
+    "zh-TW": {
+     "title": "用 Blender 搭的古耶路撒冷沉浸式 3D 模型",
+     "summary": "一句話，要求按史實還原某一週的整座城市。成片巡遊了聖殿、庭園和宮殿。",
+     "tags": [
+      "Blender",
+      "歷史"
+     ]
+    },
+    "ko": {
+     "title": "Blender로 만든 고대 예루살렘 몰입형 3D 모델",
+     "summary": "역사 속 한 주의 도시를 고증대로 재현해 달라는 한 문장입니다. 영상은 성전, 정원, 궁전을 둘러봅니다.",
+     "tags": [
+      "Blender",
+      "역사"
+     ]
+    }
+   }
+  },
+  {
+   "id": "3d-scenes-02",
+   "category": "3d-scenes",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "3d-scenes-02.mp4"
+    ],
+    "poster": "3d-scenes-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 14,
+   "ratio": "16:9",
+   "author": {
+    "name": "RezAIT00",
+    "url": "https://x.com/RezAIT00"
+   },
+   "sourceUrl": "https://x.com/RezAIT00/status/2119894257519767656",
+   "needsReference": false,
+   "preview": "Build a single self-contained three.js HTML page that renders a 14-second animation (1280x720, 30fps, deterministic: expose window.renderAt(t) so every frame can be captured). Scene: a floating voxel diorama island - Paris, 1888, the Eiffel Tower under construction. Everything",
+   "complete": false,
+   "prompt": "Build a single self-contained three.js HTML page that renders a 14-second animation (1280x720, 30fps, deterministic: expose window.renderAt(t) so every frame can be captured).  Scene: a floating voxel diorama island - Paris, 1888, the Eiffel Tower under construction. Everything is already moving on frame 1.  Island: - floating chunk with layered rock underside, the Seine curving across the front with stone quays and an arched bridge - Champ de Mars: dirt work yard, stacks of iron girders, wooden sheds, a steam engine with a smoking chimney - around it: rows of Haussmann buildings with cream walls, grey zinc roofs, chimneys, tiny trees along the boulevards  The tower (the hero): - dark reddish-brown wrought iron lattice made of thin voxel beams with real X-bracing, not solid blocks - four curved legs and the first platform finished, the second level half built, the top section only a skeleton - wooden scaffolding towers under the legs, small creeper cranes on the structure lifting girders on chains - glowing orange rivet sparks where workers hammer, small puffs of steam  Life (hundreds of tiny voxel people, ~3 voxels tall): - riveting teams on every level with hammers swinging, workers walking along beams - girders hoisted by cranes swinging slowly into place - horse-drawn carts carrying iron across the yard, crowds of onlookers in 1880s clothes with top hats and parasols - a riverboat with a smoking funnel moving along the Seine, carriages crossing the bridge, pigeons circling the tower  Camera and look: - wide view of the whole island, slow orbit (~25 degrees) with a gentle push-in toward the tower - warm late-afternoon sun, soft shadows, ambient occlusion, light haze, rounded voxels, ACES tone mapping, soft bloom on sparks\n\nFull credits go to @semichenkko for this prompt",
+   "text": {
+    "en": {
+     "title": "A floating voxel Paris of 1888, rendered frame by frame",
+     "summary": "A detailed three.js spec with renderAt(t) so every frame can be captured: the Eiffel Tower under construction on an island.",
+     "tags": [
+      "Three.js",
+      "Voxel"
+     ]
+    },
+    "zh": {
+     "title": "1888 年的悬浮体素巴黎，逐帧渲染",
+     "summary": "详细的 three.js 规格，暴露 renderAt(t) 方便逐帧截取：浮岛上的巴黎，埃菲尔铁塔正在建造。",
+     "tags": [
+      "Three.js",
+      "体素"
+     ]
+    },
+    "zh-TW": {
+     "title": "1888 年的懸浮體素巴黎，逐格算圖",
+     "summary": "詳細的 three.js 規格，提供 renderAt(t) 方便逐格擷取：浮島上的巴黎，艾菲爾鐵塔正在興建。",
+     "tags": [
+      "Three.js",
+      "體素"
+     ]
+    },
+    "ko": {
+     "title": "프레임 단위로 렌더링한 1888년 부유 복셀 파리",
+     "summary": "renderAt(t)를 노출해 모든 프레임을 캡처하는 자세한 three.js 명세로, 섬 위 파리에서 에펠탑이 지어지는 장면입니다.",
+     "tags": [
+      "Three.js",
+      "복셀"
+     ]
+    }
+   }
+  },
+  {
+   "id": "games-01",
+   "category": "games",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "games-01.mp4"
+    ],
+    "poster": "games-01.webp",
+    "width": 1280,
+    "height": 480
+   },
+   "seconds": 19,
+   "ratio": "21:9",
+   "author": {
+    "name": "joshvlc",
+    "url": "https://x.com/joshvlc"
+   },
+   "sourceUrl": "https://x.com/joshvlc/status/2119894656221958575",
+   "needsReference": false,
+   "preview": "Can you make a 3D basketball game using THREE.js? It should have a player in two different colored uniforms for the two teams and should follow the basic rules of basketball. It should have basic funcionality: - dribble (happens automatically when player runs) - shoot (hold for",
+   "complete": false,
+   "prompt": "Can you make a 3D basketball game using THREE.js? It should have a player in two different colored uniforms for the two teams and should follow the basic rules of basketball. It should have basic funcionality:\n- dribble (happens automatically when player runs)\n- shoot (hold for jump shot); dunk automatically near rim; jump/block if you don't have the ball\n- steal\n- pass to teammate\n- 1 player: the teammates should be CPU and play normally (they should get open for you) and the player always controls the person with the ball (if someone on their team has it); the other team should be CPU controlled\n- fouls + penalty shots\n- the game should start on a tip (hit shoot button to tip)\nNote: include sound effects and crowd cheering! You can use Blender (installed on this machine) if needed for the graphics!",
+   "text": {
+    "en": {
+     "title": "A one-shot 3D basketball game in Three.js",
+     "summary": "A plain list of rules and controls: dribble, jump shot, dunk, steal, pass, two teams. Built in one shot.",
+     "tags": [
+      "Three.js",
+      "Game"
+     ]
+    },
+    "zh": {
+     "title": "一次生成的 Three.js 3D 篮球游戏",
+     "summary": "直白列出规则和操作：运球、跳投、扣篮、抢断、传球、两支队。一次成型。",
+     "tags": [
+      "Three.js",
+      "游戏"
+     ]
+    },
+    "zh-TW": {
+     "title": "一次生成的 Three.js 3D 籃球遊戲",
+     "summary": "直白列出規則和操作：運球、跳投、灌籃、抄截、傳球、兩支隊。一次成型。",
+     "tags": [
+      "Three.js",
+      "遊戲"
+     ]
+    },
+    "ko": {
+     "title": "한 번에 만든 Three.js 3D 농구 게임",
+     "summary": "드리블, 점프슛, 덩크, 스틸, 패스, 두 팀 등 규칙과 조작을 그대로 나열했습니다. 한 번에 완성됐습니다.",
+     "tags": [
+      "Three.js",
+      "게임"
+     ]
+    }
+   }
+  },
+  {
+   "id": "games-02",
+   "category": "games",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "games-02.mp4"
+    ],
+    "poster": "games-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 135,
+   "ratio": "16:9",
+   "author": {
+    "name": "ericmaskfr",
+    "url": "https://x.com/ericmaskfr"
+   },
+   "sourceUrl": "https://x.com/ericmaskfr/status/2119910195325481026",
+   "needsReference": false,
+   "preview": "you're a senior game dev. build a third-person open-world crime game in a sunny 80s miami-style city. make the loop tight: walk, fight, steal a car, get chased, earn money, spend it. every system feeds the next: crimes bring heat, heat brings cops, missions pay, money unlocks",
+   "complete": false,
+   "prompt": "you're a senior game dev. build a third-person open-world crime game in a sunny 80s miami-style city. make the loop tight: walk, fight, steal a car, get chased, earn money, spend it. every system feeds the next: crimes bring heat, heat brings cops, missions pay, money unlocks the garage. cars need weight: gears, skids, real crashes. the city has to feel alive with traffic, people and day into night. no audio files, generate every sound in code. after each system, play it yourself, screenshot it and fix what looks wrong. don't stop until a stranger could play for 10 minutes without hitting a bug",
+   "text": {
+    "en": {
+     "title": "An open-world crime game in an 80s Miami-style city",
+     "summary": "A tight loop in one prompt: walk, fight, steal a car, get chased, earn and spend. The author reports 2 hours 14 minutes.",
+     "tags": [
+      "Open world",
+      "Game"
+     ]
+    },
+    "zh": {
+     "title": "80 年代迈阿密风格城市里的开放世界游戏",
+     "summary": "一条提示词定好循环：走路、打斗、偷车、被追、赚钱花钱。作者称用了 2 小时 14 分钟。",
+     "tags": [
+      "开放世界",
+      "游戏"
+     ]
+    },
+    "zh-TW": {
+     "title": "80 年代邁阿密風格城市裡的開放世界遊戲",
+     "summary": "一條提示詞定好循環：走路、打鬥、偷車、被追、賺錢花錢。作者說用了 2 小時 14 分鐘。",
+     "tags": [
+      "開放世界",
+      "遊戲"
+     ]
+    },
+    "ko": {
+     "title": "80년대 마이애미풍 도시의 오픈월드 게임",
+     "summary": "걷기, 싸우기, 차 훔치기, 추격, 돈 벌고 쓰기로 이어지는 루프를 한 프롬프트에 담았습니다. 작성자는 2시간 14분 걸렸다고 밝혔습니다.",
+     "tags": [
+      "오픈월드",
+      "게임"
+     ]
+    }
+   }
+  },
+  {
+   "id": "music-01",
+   "category": "music",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "music-01.mp4"
+    ],
+    "poster": "music-01.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 45,
+   "ratio": "16:9",
+   "author": {
+    "name": "aug5thmusic",
+    "url": "https://x.com/aug5thmusic"
+   },
+   "sourceUrl": "https://x.com/aug5thmusic/status/2119879319426404780",
+   "needsReference": false,
+   "preview": "Prompt: “In LilyPond (version 2.24), write a 4-part chorale in the style of Bach, 3/4 time, G minor. Use two staves -- soprano and alto on the top staff, tenor and bass on the bottom staff. Respond with only the code block.” (Extra High effort)",
+   "complete": true,
+   "prompt": "Prompt: “In LilyPond (version 2.24), write a 4-part chorale in the style of Bach, 3/4 time, G minor. Use two staves -- soprano and alto on the top staff, tenor and bass on the bottom staff. Respond with only the code block.” (Extra High effort)",
+   "text": {
+    "en": {
+     "title": "A Bach-style chorale in G minor, written in LilyPond",
+     "summary": "Ask for only the code block at Extra High effort. The author, who runs a Bach benchmark, calls it one of the best chorales so far.",
+     "tags": [
+      "LilyPond",
+      "Bach"
+     ]
+    },
+    "zh": {
+     "title": "用 LilyPond 写的 G 小调巴赫风格众赞歌",
+     "summary": "Extra High 档位，只要代码块。做巴赫测评的作者说这是目前见过最好的众赞歌之一。",
+     "tags": [
+      "LilyPond",
+      "巴赫"
+     ]
+    },
+    "zh-TW": {
+     "title": "用 LilyPond 寫的 G 小調巴赫風格聖詠",
+     "summary": "Extra High 檔位，只要程式碼區塊。做巴赫評測的作者說這是目前看過最好的聖詠之一。",
+     "tags": [
+      "LilyPond",
+      "巴赫"
+     ]
+    },
+    "ko": {
+     "title": "LilyPond로 쓴 G단조 바흐풍 코랄",
+     "summary": "Extra High 단계에서 코드 블록만 요청합니다. 바흐 벤치마크를 하는 작성자는 지금까지 본 최고의 코랄 중 하나라고 평가했습니다.",
+     "tags": [
+      "LilyPond",
+      "바흐"
+     ]
+    }
+   }
+  },
+  {
+   "id": "music-02",
+   "category": "music",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "music-02.mp4"
+    ],
+    "poster": "music-02.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 53,
+   "ratio": "16:9",
+   "author": {
+    "name": "takamasa045",
+    "url": "https://x.com/takamasa045"
+   },
+   "sourceUrl": "https://x.com/takamasa045/status/2120014216753262816",
+   "needsReference": true,
+   "preview": "自分がどれほど優れたモーションデザイナーか、ポートフォリオ作品のつもりで披露せよ。ツールも技術も自由。大胆なアートディレクションと力強いモーションで、1秒も無駄にするな。まずは1分くらい",
+   "complete": true,
+   "prompt": "自分がどれほど優れたモーションデザイナーか、ポートフォリオ作品のつもりで披露せよ。ツールも技術も自由。大胆なアートディレクションと力強いモーションで、1秒も無駄にするな。まずは1分くらい",
+   "text": {
+    "en": {
+     "title": "A Japanese lyric motion video from a song and its lyrics",
+     "summary": "Japanese prompt: show off as a motion designer, about one minute. The author supplied the song and lyrics and compared it with Opus 5.5.",
+     "tags": [
+      "Lyric video",
+      "Song needed"
+     ]
+    },
+    "zh": {
+     "title": "给歌和歌词做的日语歌词动态视频",
+     "summary": "日语提示词：当成作品集来炫一手动效，约 1 分钟。作者提供了歌曲和歌词，并和 Opus 5.5 做了对比。",
+     "tags": [
+      "歌词视频",
+      "需自备歌曲"
+     ]
+    },
+    "zh-TW": {
+     "title": "給歌和歌詞做的日語歌詞動態影片",
+     "summary": "日語提示詞：當成作品集來秀一手動態設計，約 1 分鐘。作者提供了歌曲和歌詞，並和 Opus 5.5 做了比較。",
+     "tags": [
+      "歌詞影片",
+      "需自備歌曲"
+     ]
+    },
+    "ko": {
+     "title": "노래와 가사로 만든 일본어 가사 모션 영상",
+     "summary": "모션 디자이너로서 실력을 뽐내라는 약 1분짜리 일본어 프롬프트입니다. 작성자가 노래와 가사를 제공했고 Opus 5.5와 비교했습니다.",
+     "tags": [
+      "가사 영상",
+      "노래 필요"
+     ]
+    }
+   }
+  },
+  {
+   "id": "music-03",
+   "category": "music",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "music-03.mp4"
+    ],
+    "poster": "music-03.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 64,
+   "ratio": "16:9",
+   "author": {
+    "name": "tankazunori0914",
+    "url": "https://x.com/tankazunori0914"
+   },
+   "sourceUrl": "https://x.com/tankazunori0914/status/2120012834461646927",
+   "needsReference": false,
+   "preview": "Fable 5.2の実力を見せつける動画を作成して。\n条件：素材ゼロ、コードだけで作る。hyperframesスキルの「暗い地・光・粒子は避ける」「音楽をコードで書かない」は今回は外してよい。",
+   "complete": true,
+   "prompt": "Fable 5.2の実力を見せつける動画を作成して。\n条件：素材ゼロ、コードだけで作る。hyperframesスキルの「暗い地・光・粒子は避ける」「音楽をコードで書かない」は今回は外してよい。",
+   "text": {
+    "en": {
+     "title": "From a point to a world: a shader film with a coded song",
+     "summary": "Japanese prompt: zero assets, code only. The author reports 1,076 lines, pictures from shaders and music synthesized in code.",
+     "tags": [
+      "Shader",
+      "Code only"
+     ]
+    },
+    "zh": {
+     "title": "从一个点长成整个世界：着色器影片配代码合成音乐",
+     "summary": "日语提示词：零素材、只用代码。作者称共 1,076 行，画面全是着色器，音乐也用代码合成。",
+     "tags": [
+      "着色器",
+      "纯代码"
+     ]
+    },
+    "zh-TW": {
+     "title": "從一個點長成整個世界：著色器影片配程式合成音樂",
+     "summary": "日語提示詞：零素材、只用程式碼。作者說共 1,076 行，畫面全是著色器，音樂也用程式合成。",
+     "tags": [
+      "著色器",
+      "純程式碼"
+     ]
+    },
+    "ko": {
+     "title": "한 점에서 세계로: 코드로 합성한 음악의 셰이더 영상",
+     "summary": "소재 없이 코드만 쓰라는 일본어 프롬프트입니다. 작성자는 1,076줄이며 그림은 셰이더, 음악은 코드로 합성했다고 밝혔습니다.",
+     "tags": [
+      "셰이더",
+      "코드만으로"
+     ]
+    }
+   }
+  },
+  {
+   "id": "music-04",
+   "category": "music",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "music-04.mp4"
+    ],
+    "poster": "music-04.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 125,
+   "ratio": "16:9",
+   "author": {
+    "name": "aug5thmusic",
+    "url": "https://x.com/aug5thmusic"
+   },
+   "sourceUrl": "https://x.com/aug5thmusic/status/2119907891419480107",
+   "needsReference": false,
+   "preview": "In LilyPond (version 2.24), write a complete fugue for organ in the style of Bach.",
+   "complete": true,
+   "prompt": "In LilyPond (version 2.24), write a complete fugue for organ in the style of Bach.",
+   "text": {
+    "en": {
+     "title": "A complete organ fugue in the style of Bach, in LilyPond",
+     "summary": "One sentence at Extra High effort. The video plays the engraved score with the rendered audio.",
+     "tags": [
+      "LilyPond",
+      "Bach"
+     ]
+    },
+    "zh": {
+     "title": "用 LilyPond 写的完整巴赫风格管风琴赋格",
+     "summary": "Extra High 档位的一句话。视频播放排好的乐谱和渲染出的音频。",
+     "tags": [
+      "LilyPond",
+      "巴赫"
+     ]
+    },
+    "zh-TW": {
+     "title": "用 LilyPond 寫的完整巴赫風格管風琴賦格",
+     "summary": "Extra High 檔位的一句話。影片播放排好的樂譜和產生的音訊。",
+     "tags": [
+      "LilyPond",
+      "巴赫"
+     ]
+    },
+    "ko": {
+     "title": "LilyPond로 쓴 바흐풍 오르간 푸가 전곡",
+     "summary": "Extra High 단계의 한 문장입니다. 영상은 조판된 악보와 렌더링한 오디오를 함께 보여 줍니다.",
+     "tags": [
+      "LilyPond",
+      "바흐"
+     ]
+    }
+   }
+  }
+ ]
+}
