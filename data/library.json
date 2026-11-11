@@ -47,7 +47,7 @@
    "categories": {
     "motion-graphics": {
      "name": "Motion graphics",
-     "intro": "Showreels, logo reveals and UI switches drawn in HTML, WebGL and shaders."
+     "intro": "Showreels, logo reveals, UI switches and explainers drawn in HTML, SVG, WebGL and shaders."
     },
     "product-launch": {
      "name": "Launch and promo",
@@ -55,11 +55,11 @@
     },
     "short-film": {
      "name": "Short film",
-     "intro": "Stories told in code: Blender anime, a Three.js UFO, a character animation and a wildlife hunt."
+     "intro": "Stories told in code: Blender anime, a Three.js UFO, a wildlife hunt and a one-take tour of art history."
     },
     "3d-scenes": {
      "name": "3D scenes",
-     "intro": "Whole places built in Blender or Three.js and shown as a camera tour."
+     "intro": "Places, objects and materials built in Blender, Three.js or WebGL: a city tour, a Raspberry Pi and real-time honey."
     },
     "games": {
      "name": "Games",
@@ -97,7 +97,7 @@
      {
       "h": "What to state every time",
       "formula": "Length + resolution + fps + effort + assets you supply",
-      "t": "Cards that gave a length got it. Say which assets you bring (a song, lyrics, a project folder), because four cards here depend on them."
+      "t": "Cards that gave a length got it. Say which assets you bring (a song, lyrics, a project folder, a reference video), because five cards here depend on them."
      }
     ]
    },
@@ -214,7 +214,7 @@
    "categories": {
     "motion-graphics": {
      "name": "动效",
-     "intro": "作品集短片、Logo 揭幕和界面开关，用 HTML、WebGL 和着色器画出来。"
+     "intro": "作品集短片、Logo 揭幕、界面开关和科普讲解，用 HTML、SVG、WebGL 和着色器画出来。"
     },
     "product-launch": {
      "name": "发布与宣传",
@@ -222,11 +222,11 @@
     },
     "short-film": {
      "name": "短片",
-     "intro": "用代码讲故事：Blender 日式动画、Three.js 的 UFO、角色动画和动物捕猎。"
+     "intro": "用代码讲故事：Blender 日式动画、Three.js 的 UFO、动物捕猎，还有一镜到底的人类艺术史。"
     },
     "3d-scenes": {
      "name": "3D 场景",
-     "intro": "在 Blender 或 Three.js 里搭出一整个地方，再用镜头巡游展示。"
+     "intro": "用 Blender、Three.js 或 WebGL 搭出地方、物件和材质：城市巡游、树莓派、实时模拟的蜂蜜。"
     },
     "games": {
      "name": "游戏",
@@ -264,7 +264,7 @@
      {
       "h": "每次都要写清楚的",
       "formula": "时长 + 分辨率 + 帧率 + effort + 你提供的素材",
-      "t": "写了时长的卡片都拿到了对应时长。要说明你会提供哪些素材（歌曲、歌词、项目目录），这里有四张卡片依赖它们。"
+      "t": "写了时长的卡片都拿到了对应时长。要说明你会提供哪些素材（歌曲、歌词、项目目录、参考视频），这里有五张卡片依赖它们。"
      }
     ]
    },
@@ -381,7 +381,7 @@
    "categories": {
     "motion-graphics": {
      "name": "動態設計",
-     "intro": "作品集短片、Logo 揭幕和介面開關，用 HTML、WebGL 和著色器畫出來。"
+     "intro": "作品集短片、Logo 揭幕、介面開關和科普講解，用 HTML、SVG、WebGL 和著色器畫出來。"
     },
     "product-launch": {
      "name": "發表與宣傳",
@@ -389,11 +389,11 @@
     },
     "short-film": {
      "name": "短片",
-     "intro": "用程式碼說故事：Blender 日式動畫、Three.js 的 UFO、角色動畫和動物捕獵。"
+     "intro": "用程式碼說故事：Blender 日式動畫、Three.js 的 UFO、動物捕獵，還有一鏡到底的人類藝術史。"
     },
     "3d-scenes": {
      "name": "3D 場景",
-     "intro": "在 Blender 或 Three.js 裡搭出一整個地方，再用鏡頭巡遊展示。"
+     "intro": "用 Blender、Three.js 或 WebGL 搭出地方、物件和材質：城市巡遊、樹莓派、即時模擬的蜂蜜。"
     },
     "games": {
      "name": "遊戲",
@@ -431,7 +431,7 @@
      {
       "h": "每次都要寫清楚的",
       "formula": "長度 + 解析度 + 影格率 + effort + 你提供的素材",
-      "t": "寫了長度的卡片都拿到了對應長度。要說明你會提供哪些素材（歌曲、歌詞、專案目錄），這裡有四張卡片依賴它們。"
+      "t": "寫了長度的卡片都拿到了對應長度。要說明你會提供哪些素材（歌曲、歌詞、專案目錄、參考影片），這裡有五張卡片依賴它們。"
      }
     ]
    },
@@ -548,7 +548,7 @@
    "categories": {
     "motion-graphics": {
      "name": "모션 그래픽",
-     "intro": "HTML, WebGL, 셰이더로 그린 쇼릴, 로고 리빌, UI 스위치입니다."
+     "intro": "HTML, SVG, WebGL, 셰이더로 그린 쇼릴, 로고 리빌, UI 스위치, 설명 영상입니다."
     },
     "product-launch": {
      "name": "출시와 홍보",
@@ -556,11 +556,11 @@
     },
     "short-film": {
      "name": "단편 영상",
-     "intro": "Blender 애니메이션, Three.js UFO, 캐릭터 애니메이션, 동물 사냥처럼 코드로 만든 이야기입니다."
+     "intro": "Blender 애니메이션, Three.js UFO, 동물 사냥, 원테이크로 훑는 인류 미술사처럼 코드로 만든 이야기입니다."
     },
     "3d-scenes": {
      "name": "3D 장면",
-     "intro": "Blender나 Three.js로 장소 전체를 만들고 카메라로 둘러봅니다."
+     "intro": "Blender, Three.js, WebGL로 만든 장소·사물·재질입니다. 도시 투어, 라즈베리 파이, 실시간 꿀 시뮬레이션이 있습니다."
     },
     "games": {
      "name": "게임",
@@ -598,7 +598,7 @@
      {
       "h": "매번 적어야 할 것",
       "formula": "길이 + 해상도 + fps + effort + 직접 주는 소재",
-      "t": "길이를 적은 카드는 그 길이를 받았습니다. 노래, 가사, 프로젝트 폴더처럼 어떤 소재를 줄지 적으세요. 여기서 네 카드가 그런 소재에 의존합니다."
+      "t": "길이를 적은 카드는 그 길이를 받았습니다. 노래, 가사, 프로젝트 폴더, 참고 영상처럼 어떤 소재를 줄지 적으세요. 여기서 다섯 카드가 그런 소재에 의존합니다."
      }
     ]
    },
@@ -1051,6 +1051,360 @@
    }
   },
   {
+   "id": "motion-graphics-07",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-07.mp4"
+    ],
+    "poster": "motion-graphics-07.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 30,
+   "ratio": "16:9",
+   "author": {
+    "name": "Leviwoyun",
+    "url": "https://x.com/Leviwoyun"
+   },
+   "sourceUrl": "https://x.com/Leviwoyun/status/2119955625820258308",
+   "needsReference": false,
+   "preview": "制作一段 30 秒动态图形短片，展现作为动态设计师出众的实力，就当做用于简历的个人作品集，请尽情发挥",
+   "complete": true,
+   "prompt": "制作一段 30 秒动态图形短片，展现作为动态设计师出众的实力，就当做用于简历的个人作品集，请尽情发挥",
+   "text": {
+    "en": {
+     "title": "A 30-second motion design portfolio reel with its own music",
+     "summary": "Chinese prompt: a 30-second reel that proves you are an outstanding motion designer, made like a résumé portfolio piece. The author reports 24 minutes for the motion and the music.",
+     "tags": [
+      "One-liner",
+      "Showreel"
+     ]
+    },
+    "zh": {
+     "title": "30 秒动态设计作品集，自带配乐",
+     "summary": "中文提示词：做一支 30 秒动态图形短片，当成简历里的作品集，尽情发挥。作者称动效加配乐一共用了 24 分钟。",
+     "tags": [
+      "一句话",
+      "作品集短片"
+     ]
+    },
+    "zh-TW": {
+     "title": "30 秒動態設計作品集，自帶配樂",
+     "summary": "中文提示詞：做一支 30 秒動態圖形短片，當成履歷裡的作品集，盡情發揮。作者說動態加配樂一共花了 24 分鐘。",
+     "tags": [
+      "一句話",
+      "作品集短片"
+     ]
+    },
+    "ko": {
+     "title": "음악까지 붙은 30초 모션 디자인 포트폴리오",
+     "summary": "이력서용 포트폴리오처럼 30초 모션 그래픽으로 실력을 보여 달라는 중국어 프롬프트입니다. 작성자는 모션과 음악까지 24분 걸렸다고 밝혔습니다.",
+     "tags": [
+      "한 줄 프롬프트",
+      "쇼릴"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-08",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-08.mp4"
+    ],
+    "poster": "motion-graphics-08.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 146,
+   "ratio": "16:9",
+   "author": {
+    "name": "rute1203d",
+    "url": "https://x.com/rute1203d"
+   },
+   "sourceUrl": "https://x.com/rute1203d/status/2120077147872391540",
+   "needsReference": false,
+   "preview": "あなたが世界有数の動画クリエイターです...\n今の実力を見せつける最高の動画を作ってください\n技術をみせその後感動を見せる",
+   "complete": true,
+   "prompt": "あなたが世界有数の動画クリエイターです...\n今の実力を見せつける最高の動画を作ってください\n技術をみせその後感動を見せる",
+   "text": {
+    "en": {
+     "title": "A showcase film: technique first, then the feelings",
+     "summary": "Japanese prompt: you are one of the world's top video creators; show off your technique, then move the viewer. The author did not expect the turn in the second half.",
+     "tags": [
+      "Open brief",
+      "Showcase"
+     ]
+    },
+    "zh": {
+     "title": "先秀技术、再打动人的展示短片",
+     "summary": "日语提示词：你是世界顶尖的视频创作者，先展示技术，再让人感动。作者说后半段的走向完全没想到。",
+     "tags": [
+      "开放需求",
+      "展示片"
+     ]
+    },
+    "zh-TW": {
+     "title": "先秀技術、再打動人的展示短片",
+     "summary": "日語提示詞：你是世界頂尖的影片創作者，先展示技術，再讓人感動。作者說後半段的走向完全沒想到。",
+     "tags": [
+      "開放需求",
+      "展示片"
+     ]
+    },
+    "ko": {
+     "title": "기술 먼저, 감동은 그다음인 쇼케이스 영상",
+     "summary": "세계 최고 수준의 영상 크리에이터로서 기술을 보여 준 뒤 감동을 주라는 일본어 프롬프트입니다. 작성자는 후반부 전개를 예상하지 못했다고 밝혔습니다.",
+     "tags": [
+      "열린 요청",
+      "쇼케이스"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-09",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-09.mp4"
+    ],
+    "poster": "motion-graphics-09.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 89,
+   "ratio": "16:9",
+   "author": {
+    "name": "suna_gaku",
+    "url": "https://x.com/suna_gaku"
+   },
+   "sourceUrl": "https://x.com/suna_gaku/status/2119952985933697063",
+   "needsReference": false,
+   "preview": "今の実力を見せつける最強の動画を見せて",
+   "complete": true,
+   "prompt": "今の実力を見せつける最強の動画を見せて",
+   "text": {
+    "en": {
+     "title": "\"Show me the strongest video you can make\"",
+     "summary": "A one-line Japanese prompt. In an earlier post the author says the model started by composing the song, then built fractals, fluid and sound scenes around it.",
+     "tags": [
+      "One-liner",
+      "Music in code"
+     ]
+    },
+    "zh": {
+     "title": "「给我看你现在最强的视频」",
+     "summary": "一句日语提示词。作者在前一条帖子里说，模型先从作曲开始，再围绕音乐做分形、流体和声音的画面。",
+     "tags": [
+      "一句话",
+      "代码配乐"
+     ]
+    },
+    "zh-TW": {
+     "title": "「讓我看你現在最強的影片」",
+     "summary": "一句日語提示詞。作者在前一則貼文裡說，模型先從作曲開始，再圍繞音樂做碎形、流體和聲音的畫面。",
+     "tags": [
+      "一句話",
+      "程式配樂"
+     ]
+    },
+    "ko": {
+     "title": "\"지금 실력을 보여 줄 최강의 영상을 보여 줘\"",
+     "summary": "일본어 한 줄 프롬프트입니다. 작성자는 이전 게시물에서 모델이 곡부터 만든 뒤 프랙털, 유체, 사운드 장면을 붙였다고 밝혔습니다.",
+     "tags": [
+      "한 줄 프롬프트",
+      "코드 음악"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-10",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-10.mp4"
+    ],
+    "poster": "motion-graphics-10.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 118,
+   "ratio": "16:9",
+   "author": {
+    "name": "Hunter_Weiss",
+    "url": "https://x.com/Hunter_Weiss"
+   },
+   "sourceUrl": "https://x.com/Hunter_Weiss/status/2119932937642946900",
+   "needsReference": false,
+   "preview": "I need you to create the most impressive video I can share with people about Fable 5.2, explaining rocket science as if it were for someone with a high school education.",
+   "complete": true,
+   "prompt": "I need you to create the most impressive video I can share with people about Fable 5.2, explaining rocket science as if it were for someone with a high school education.",
+   "text": {
+    "en": {
+     "title": "Rocket science for a high-school audience, in one shot",
+     "summary": "One prompt asks for the most shareable video about Fable 5.2 that explains rocket science at a high-school level. The result is two minutes of captioned diagrams.",
+     "tags": [
+      "One-shot",
+      "Explainer"
+     ]
+    },
+    "zh": {
+     "title": "一次成片：讲给高中生听的火箭原理",
+     "summary": "一条提示词：做一支能拿去分享的 Fable 5.2 视频，用高中水平讲清火箭原理。成片约 2 分钟，配字幕和图解。",
+     "tags": [
+      "一次成片",
+      "科普讲解"
+     ]
+    },
+    "zh-TW": {
+     "title": "一次成片：講給高中生聽的火箭原理",
+     "summary": "一條提示詞：做一支能拿去分享的 Fable 5.2 影片，用高中程度講清楚火箭原理。成片約 2 分鐘，附字幕和圖解。",
+     "tags": [
+      "一次成片",
+      "科普講解"
+     ]
+    },
+    "ko": {
+     "title": "한 번에 완성한 고등학생용 로켓 과학 설명 영상",
+     "summary": "고등학생 수준으로 로켓 과학을 설명하는, 공유하기 좋은 Fable 5.2 영상을 요청한 프롬프트입니다. 자막과 도식이 들어간 약 2분 영상이 나왔습니다.",
+     "tags": [
+      "원샷",
+      "설명 영상"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-11",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-11.mp4"
+    ],
+    "poster": "motion-graphics-11.webp",
+    "width": 952,
+    "height": 452
+   },
+   "seconds": 31,
+   "ratio": "2:1",
+   "author": {
+    "name": "leo114119",
+    "url": "https://x.com/leo114119"
+   },
+   "sourceUrl": "https://x.com/leo114119/status/2119943368079802645",
+   "needsReference": false,
+   "preview": "创建一个Html文件，使用svg 绘制一只鹈鹕骑自行车的动画",
+   "complete": true,
+   "prompt": "创建一个Html文件，使用svg 绘制一只鹈鹕骑自行车的动画",
+   "text": {
+    "en": {
+     "title": "The pelican-on-a-bicycle test, drawn in SVG",
+     "summary": "A Chinese prompt the author found on Bilibili: one HTML file with an SVG pelican riding a bicycle. Run on MAX, it came out natural and smooth, with less realistic detail than earlier attempts.",
+     "tags": [
+      "SVG",
+      "Benchmark"
+     ]
+    },
+    "zh": {
+     "title": "鹈鹕骑自行车 SVG 测试",
+     "summary": "作者从 B 站看到的中文提示词：一个 HTML 文件，用 SVG 画鹈鹕骑自行车。用 MAX 跑，作者觉得自然流畅，但没有之前那些拟真细节。",
+     "tags": [
+      "SVG",
+      "测试题"
+     ]
+    },
+    "zh-TW": {
+     "title": "鵜鶘騎腳踏車 SVG 測試",
+     "summary": "作者從 B 站看到的中文提示詞：一個 HTML 檔，用 SVG 畫鵜鶘騎腳踏車。用 MAX 跑，作者覺得自然流暢，但沒有之前那些擬真細節。",
+     "tags": [
+      "SVG",
+      "測試題"
+     ]
+    },
+    "ko": {
+     "title": "자전거 타는 펠리컨 SVG 테스트",
+     "summary": "작성자가 Bilibili에서 본 중국어 프롬프트로, HTML 파일 하나에 SVG로 자전거 타는 펠리컨을 그리게 합니다. MAX로 돌렸고 자연스럽고 매끄럽지만 이전만큼 사실적인 디테일은 없다고 평했습니다.",
+     "tags": [
+      "SVG",
+      "벤치마크"
+     ]
+    }
+   }
+  },
+  {
+   "id": "motion-graphics-12",
+   "category": "motion-graphics",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "motion-graphics-12.mp4"
+    ],
+    "poster": "motion-graphics-12.webp",
+    "width": 1280,
+    "height": 716
+   },
+   "seconds": 26,
+   "ratio": "16:9",
+   "author": {
+    "name": "diegocabezas01",
+    "url": "https://x.com/diegocabezas01"
+   },
+   "sourceUrl": "https://x.com/diegocabezas01/status/2119978348440866912",
+   "needsReference": false,
+   "preview": "write a python code that visualizes how a traffic light works in a one way street with cars entering at random rate.",
+   "complete": true,
+   "prompt": "write a python code that visualizes how a traffic light works in a one way street with cars entering at random rate.",
+   "text": {
+    "en": {
+     "title": "A traffic light on a one-way street, simulated in Python",
+     "summary": "One sentence at High effort: cars arrive at a random rate and queue at the light, with a live chart of the queue. The author ran the same prompt on GPT-6 Astra and says both did a great job.",
+     "tags": [
+      "Python",
+      "Simulation"
+     ]
+    },
+    "zh": {
+     "title": "单行道红绿灯的 Python 模拟",
+     "summary": "High 档位的一句话：车辆随机到达、在路口排队，并实时画出排队长度。作者把同一句也交给 GPT-6 Astra，说两边都做得很好。",
+     "tags": [
+      "Python",
+      "模拟"
+     ]
+    },
+    "zh-TW": {
+     "title": "單行道紅綠燈的 Python 模擬",
+     "summary": "High 檔位的一句話：車輛隨機抵達、在路口排隊，並即時畫出排隊長度。作者把同一句也交給 GPT-6 Astra，說兩邊都做得很好。",
+     "tags": [
+      "Python",
+      "模擬"
+     ]
+    },
+    "ko": {
+     "title": "일방통행 도로 신호등을 Python으로 시뮬레이션",
+     "summary": "High 단계의 한 문장입니다. 차가 무작위로 들어와 신호에서 줄을 서고, 대기열 길이가 실시간 그래프로 나옵니다. 작성자는 같은 프롬프트를 GPT-6 Astra에도 돌렸고 둘 다 잘했다고 평했습니다.",
+     "tags": [
+      "Python",
+      "시뮬레이션"
+     ]
+    }
+   }
+  },
+  {
    "id": "product-launch-01",
    "category": "product-launch",
    "kind": "prompt",
@@ -1282,6 +1636,65 @@
      "tags": [
       "프로젝트 폴더",
       "홍보 영상"
+     ]
+    }
+   }
+  },
+  {
+   "id": "product-launch-05",
+   "category": "product-launch",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "product-launch-05.mp4"
+    ],
+    "poster": "product-launch-05.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 19,
+   "ratio": "16:9",
+   "author": {
+    "name": "wangray",
+    "url": "https://x.com/wangray"
+   },
+   "sourceUrl": "https://x.com/wangray/status/2120040640423850168",
+   "needsReference": true,
+   "preview": "参考这个 launch video 风格给 BlewUp 做一个类似的视频",
+   "complete": true,
+   "prompt": "参考这个 launch video 风格给 BlewUp 做一个类似的视频",
+   "text": {
+    "en": {
+     "title": "A launch video for BlewUp, styled after a reference",
+     "summary": "A one-line Chinese prompt: make a similar video for BlewUp in the style of this launch video. You bring the reference video and your own product.",
+     "tags": [
+      "Reference video",
+      "Launch film"
+     ]
+    },
+    "zh": {
+     "title": "照着参考片给 BlewUp 做的发布视频",
+     "summary": "一句中文提示词：参考这个 launch video 的风格，给 BlewUp 做一个类似的视频。参考视频和产品要自己准备。",
+     "tags": [
+      "参考视频",
+      "发布片"
+     ]
+    },
+    "zh-TW": {
+     "title": "照著參考片給 BlewUp 做的發表影片",
+     "summary": "一句中文提示詞：參考這支 launch video 的風格，給 BlewUp 做一支類似的影片。參考影片和產品要自己準備。",
+     "tags": [
+      "參考影片",
+      "發表片"
+     ]
+    },
+    "ko": {
+     "title": "참고 영상 스타일로 만든 BlewUp 출시 영상",
+     "summary": "\"이 launch video 스타일을 참고해 BlewUp용으로 비슷한 영상을 만들어 줘\"라는 중국어 한 줄 프롬프트입니다. 참고 영상과 제품은 직접 준비해야 합니다.",
+     "tags": [
+      "참고 영상",
+      "출시 영상"
      ]
     }
    }
@@ -1523,6 +1936,124 @@
    }
   },
   {
+   "id": "short-film-05",
+   "category": "short-film",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-05.mp4"
+    ],
+    "poster": "short-film-05.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 60,
+   "ratio": "16:9",
+   "author": {
+    "name": "akokoi1",
+    "url": "https://x.com/akokoi1"
+   },
+   "sourceUrl": "https://x.com/akokoi1/status/2119986791474491817",
+   "needsReference": false,
+   "preview": "做一个60秒的短片，展示人类艺术史，要求做到引人入胜，一镜到底。",
+   "complete": true,
+   "prompt": "做一个60秒的短片，展示人类艺术史，要求做到引人入胜，一镜到底。",
+   "text": {
+    "en": {
+     "title": "Human art history in one 60-second continuous shot",
+     "summary": "A one-line Chinese prompt: a gripping 60-second film of human art history, in a single take. It runs from cave paintings to a starfield; the author found its taste a step above Opus 5.5.",
+     "tags": [
+      "One-liner",
+      "One take"
+     ]
+    },
+    "zh": {
+     "title": "一镜到底，60 秒看完人类艺术史",
+     "summary": "一句中文提示词：60 秒短片展示人类艺术史，引人入胜、一镜到底。从洞穴壁画一路走到星空，作者觉得审美比 Opus 5.5 又高了一截。",
+     "tags": [
+      "一句话",
+      "一镜到底"
+     ]
+    },
+    "zh-TW": {
+     "title": "一鏡到底，60 秒看完人類藝術史",
+     "summary": "一句中文提示詞：60 秒短片展示人類藝術史，引人入勝、一鏡到底。從洞穴壁畫一路走到星空，作者覺得美感比 Opus 5.5 又高了一截。",
+     "tags": [
+      "一句話",
+      "一鏡到底"
+     ]
+    },
+    "ko": {
+     "title": "원테이크 60초로 훑는 인류 미술사",
+     "summary": "인류 미술사를 몰입감 있게, 한 번에 이어지는 60초 영상으로 보여 달라는 중국어 한 줄 프롬프트입니다. 동굴 벽화에서 별이 가득한 하늘까지 이어지며, 작성자는 Opus 5.5보다 미감이 한 단계 높다고 평했습니다.",
+     "tags": [
+      "한 줄 프롬프트",
+      "원테이크"
+     ]
+    }
+   }
+  },
+  {
+   "id": "short-film-06",
+   "category": "short-film",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "short-film-06.mp4"
+    ],
+    "poster": "short-film-06.webp",
+    "width": 1280,
+    "height": 720
+   },
+   "seconds": 102,
+   "ratio": "16:9",
+   "author": {
+    "name": "thomaszhou_",
+    "url": "https://x.com/thomaszhou_"
+   },
+   "sourceUrl": "https://x.com/thomaszhou_/status/2120048570443395161",
+   "needsReference": false,
+   "preview": "请制作一段视频短片，会深刻影响到我的余生。",
+   "complete": true,
+   "prompt": "请制作一段视频短片，会深刻影响到我的余生。",
+   "text": {
+    "en": {
+     "title": "\"936\": a short film that counts the weekends of a life",
+     "summary": "Chinese prompt: make a short film that will deeply affect the rest of my life. The result, titled 936, counts a life in weekends over 100 seconds.",
+     "tags": [
+      "One-liner",
+      "Short film"
+     ]
+    },
+    "zh": {
+     "title": "《936》：用周末数完一生的短片",
+     "summary": "中文提示词：请制作一段视频短片，会深刻影响到我的余生。成片叫《936》，用 100 秒把一生按周末数了一遍。",
+     "tags": [
+      "一句话",
+      "短片"
+     ]
+    },
+    "zh-TW": {
+     "title": "《936》：用週末數完一生的短片",
+     "summary": "中文提示詞：請製作一段影片短片，會深刻影響到我的餘生。成片叫《936》，用 100 秒把一生按週末數了一遍。",
+     "tags": [
+      "一句話",
+      "短片"
+     ]
+    },
+    "ko": {
+     "title": "\"936\": 인생을 주말로 세어 보는 단편",
+     "summary": "\"내 남은 인생에 깊은 영향을 줄 단편 영상을 만들어 줘\"라는 중국어 프롬프트입니다. 결과물 「936」은 100초 동안 한 사람의 인생을 주말 단위로 셉니다.",
+     "tags": [
+      "한 줄 프롬프트",
+      "단편 영상"
+     ]
+    }
+   }
+  },
+  {
    "id": "3d-scenes-01",
    "category": "3d-scenes",
    "kind": "prompt",
@@ -1636,6 +2167,124 @@
      "tags": [
       "Three.js",
       "복셀"
+     ]
+    }
+   }
+  },
+  {
+   "id": "3d-scenes-03",
+   "category": "3d-scenes",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "3d-scenes-03.mp4"
+    ],
+    "poster": "3d-scenes-03.webp",
+    "width": 1280,
+    "height": 532
+   },
+   "seconds": 51,
+   "ratio": "21:9",
+   "author": {
+    "name": "deedydas",
+    "url": "https://x.com/deedydas"
+   },
+   "sourceUrl": "https://x.com/deedydas/status/2119930300990177509",
+   "needsReference": false,
+   "preview": "Can you write the most intricate photorealistic simulation of honey in WebGL in the browser",
+   "complete": true,
+   "prompt": "Can you write the most intricate photorealistic simulation of honey in WebGL in the browser",
+   "text": {
+    "en": {
+     "title": "Photorealistic honey, simulated in WebGL",
+     "summary": "One sentence: the most intricate photorealistic honey simulation in the browser. The author says the video is a physics-based real-time render.",
+     "tags": [
+      "WebGL",
+      "Simulation"
+     ]
+    },
+    "zh": {
+     "title": "WebGL 实时模拟的写实蜂蜜",
+     "summary": "一句话：在浏览器里用 WebGL 写一个最精细的写实蜂蜜模拟。作者说视频是基于物理的实时渲染。",
+     "tags": [
+      "WebGL",
+      "模拟"
+     ]
+    },
+    "zh-TW": {
+     "title": "WebGL 即時模擬的寫實蜂蜜",
+     "summary": "一句話：在瀏覽器裡用 WebGL 寫一個最精細的寫實蜂蜜模擬。作者說影片是基於物理的即時算繪。",
+     "tags": [
+      "WebGL",
+      "模擬"
+     ]
+    },
+    "ko": {
+     "title": "WebGL로 시뮬레이션한 사실적인 꿀",
+     "summary": "브라우저에서 WebGL로 가장 정교한 사실적 꿀 시뮬레이션을 만들라는 한 문장입니다. 작성자는 물리 기반 실시간 렌더링이라고 밝혔습니다.",
+     "tags": [
+      "WebGL",
+      "시뮬레이션"
+     ]
+    }
+   }
+  },
+  {
+   "id": "3d-scenes-04",
+   "category": "3d-scenes",
+   "kind": "prompt",
+   "media": {
+    "type": "video",
+    "files": [
+     "3d-scenes-04.mp4"
+    ],
+    "poster": "3d-scenes-04.webp",
+    "width": 1280,
+    "height": 1280
+   },
+   "seconds": 6,
+   "ratio": "1:1",
+   "author": {
+    "name": "sparklabhq",
+    "url": "https://x.com/sparklabhq"
+   },
+   "sourceUrl": "https://x.com/sparklabhq/status/2119917375080521921",
+   "needsReference": false,
+   "preview": "animate a raspberry pi 5",
+   "complete": true,
+   "prompt": "animate a raspberry pi 5",
+   "text": {
+    "en": {
+     "title": "A Raspberry Pi 5 that takes itself apart",
+     "summary": "Five words: animate a raspberry pi 5. Six seconds of the board breaking into parts and coming back together.",
+     "tags": [
+      "One-liner",
+      "Product 3D"
+     ]
+    },
+    "zh": {
+     "title": "拆开又装回去的树莓派 5",
+     "summary": "一句英文：animate a raspberry pi 5。6 秒钟里电路板散开成零件，再拼回原样。",
+     "tags": [
+      "一句话",
+      "产品 3D"
+     ]
+    },
+    "zh-TW": {
+     "title": "拆開又裝回去的樹莓派 5",
+     "summary": "一句英文：animate a raspberry pi 5。6 秒鐘裡電路板散開成零件，再拼回原樣。",
+     "tags": [
+      "一句話",
+      "產品 3D"
+     ]
+    },
+    "ko": {
+     "title": "분해됐다 다시 조립되는 라즈베리 파이 5",
+     "summary": "\"animate a raspberry pi 5\"라는 다섯 단어입니다. 6초 동안 보드가 부품으로 흩어졌다가 다시 맞춰집니다.",
+     "tags": [
+      "한 줄 프롬프트",
+      "제품 3D"
      ]
     }
    }

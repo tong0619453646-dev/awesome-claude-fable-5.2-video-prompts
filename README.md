@@ -3,7 +3,7 @@
 <a href="https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=banner&utm_campaign=awesome-claude-fable-5.2-video-prompts"><img src="assets/banner.jpg" alt="Awesome Claude Fable 5.2 Video Prompts" width="100%"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey)](LICENSE)
-[![Prompts](https://img.shields.io/badge/Prompts-22_cases-111111)](README.md#menu)
+[![Prompts](https://img.shields.io/badge/Prompts-33_cases-111111)](README.md#menu)
 [![Try Claude Fable 5.2 on APIKO](https://img.shields.io/badge/Try_Claude_Fable_5.2-on_APIKO-4F46E5)](https://apiko.app/models/claude-fable-5-2?utm_source=github&utm_medium=badge&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=model_try)
 [![Claude Fable 5.2 API docs](https://img.shields.io/badge/Claude_Fable_5.2-API_docs-111111)](https://apiko.app/docs/api-manual/text-series/claude?utm_source=github&utm_medium=badge&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=docs)
 
@@ -19,7 +19,7 @@
 <a id="introduction"></a>
 ## 🌟 Introduction
 
-**Claude Fable 5.2 video prompts: 22 real prompts with the videos they made, from WebGL sliders and Three.js scenes to Blender anime and LilyPond music.**
+**Claude Fable 5.2 video prompts: 33 real prompts with the videos they made, from WebGL sliders and Three.js scenes to Blender anime and LilyPond music.**
 
 Claude Fable 5.2 video prompts collected from creators in the first days after launch. Every card has the exact prompt the creator posted and the video it produced, so you can copy one and compare. Every result video plays right here on GitHub.
 
@@ -63,7 +63,7 @@ Claude Fable 5.2 writes code, not video files. The code is rendered on your mach
 - **Three.js with a frame clock** · `Scene + length + size + fps + window.renderAt(t)` — The voxel Paris card exposes renderAt(t) so every frame can be captured at a fixed rate. Ask for it whenever the video has to be exact rather than a live recording.
 - **Remotion or HyperFrames** · `Framework + length + what to sell + project folder` — Trailer cards name HyperFrames or Remotion and run inside the project, so the model reads the real product before it writes the film.
 - **Blender and LilyPond** · `Tool + subject + render settings, or "only the code block"` — The anime short builds every shot in Blender from Python; the music cards ask for LilyPond code only. Both need the tool installed locally to turn the code into a video.
-- **What to state every time** · `Length + resolution + fps + effort + assets you supply` — Cards that gave a length got it. Say which assets you bring (a song, lyrics, a project folder), because four cards here depend on them.
+- **What to state every time** · `Length + resolution + fps + effort + assets you supply` — Cards that gave a length got it. Say which assets you bring (a song, lyrics, a project folder, a reference video), because five cards here depend on them.
 
 **What the Claude Fable 5.2 examples show**
 
@@ -76,26 +76,37 @@ Claude Fable 5.2 writes code, not video files. The code is rendered on your mach
 <a id="menu"></a>
 ## 📑 Menu
 
-- [✨ Motion graphics](#motion-graphics) (6)
+- [✨ Motion graphics](#motion-graphics) (12)
   - [Two short prompts for a goodbye showreel to Opus 5.5](#motion-graphics-01)
   - [Particle letters that become a galaxy, a helix and your name](#motion-graphics-02)
   - [A volume slider that dives into an underwater world](#motion-graphics-03)
   - [A night-to-morning slider with a cozy room inside](#motion-graphics-04)
   - [A chrome-metal 3D logo reveal](#motion-graphics-05)
   - [The one-line 15-second motion designer showreel](#motion-graphics-06)
-- [🚀 Launch and promo](#product-launch) (4)
+  - [A 30-second motion design portfolio reel with its own music](#motion-graphics-07)
+  - [A showcase film: technique first, then the feelings](#motion-graphics-08)
+  - ["Show me the strongest video you can make"](#motion-graphics-09)
+  - [Rocket science for a high-school audience, in one shot](#motion-graphics-10)
+  - [The pelican-on-a-bicycle test, drawn in SVG](#motion-graphics-11)
+  - [A traffic light on a one-way street, simulated in Python](#motion-graphics-12)
+- [🚀 Launch and promo](#product-launch) (5)
   - [A 60-second launch film made with Opus 5.5 subagents](#product-launch-01)
   - ["Make your own launch video. Code only."](#product-launch-02)
   - [A social trailer for a course, built with HyperFrames](#product-launch-03)
   - [A keynote-style promo film for a knowledge site, one prompt](#product-launch-04)
-- [🎞️ Short film](#short-film) (4)
+  - [A launch video for BlewUp, styled after a reference](#product-launch-05)
+- [🎞️ Short film](#short-film) (6)
   - [A steam locomotive that turns into a robot, as 2D anime](#short-film-01)
   - [A UFO lands at Area 51 and greets humans](#short-film-02)
   - [A little wizard creates and releases Fable 5.2](#short-film-03)
   - [A sabertooth cat hunts a bison, code only](#short-film-04)
-- [• 3D scenes](#3d-scenes) (2)
+  - [Human art history in one 60-second continuous shot](#short-film-05)
+  - ["936": a short film that counts the weekends of a life](#short-film-06)
+- [• 3D scenes](#3d-scenes) (4)
   - [An immersive 3D model of ancient Jerusalem in Blender](#3d-scenes-01)
   - [A floating voxel Paris of 1888, rendered frame by frame](#3d-scenes-02)
+  - [Photorealistic honey, simulated in WebGL](#3d-scenes-03)
+  - [A Raspberry Pi 5 that takes itself apart](#3d-scenes-04)
 - [• Games](#games) (2)
   - [A one-shot 3D basketball game in Three.js](#games-01)
   - [An open-world crime game in an 80s Miami-style city](#games-02)
@@ -110,7 +121,7 @@ Claude Fable 5.2 writes code, not video files. The code is rendered on your mach
 <a id="motion-graphics"></a>
 ## ✨ Motion graphics
 
-> Showreels, logo reveals and UI switches drawn in HTML, WebGL and shaders. · 6 cases
+> Showreels, logo reveals, UI switches and explainers drawn in HTML, SVG, WebGL and shaders. · 12 cases
 
 <a id="motion-graphics-01"></a>
 ### 1. Two short prompts for a goodbye showreel to Opus 5.5
@@ -358,13 +369,105 @@ https://github.com/user-attachments/assets/e708f162-826c-4b84-86d5-3ca6a64080d3
 make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out
 ```
 
+<a id="motion-graphics-07"></a>
+### 7. A 30-second motion design portfolio reel with its own music
+
+by [@Leviwoyun](https://x.com/Leviwoyun) · 30s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-07#motion-graphics-07)** · [Original post](https://x.com/Leviwoyun/status/2119955625820258308)
+
+Chinese prompt: a 30-second reel that proves you are an outstanding motion designer, made like a résumé portfolio piece. The author reports 24 minutes for the motion and the music.
+
+https://github.com/user-attachments/assets/8a25fd28-1ad4-4b78-b175-41758d66148b
+
+**Prompt:**
+
+```text
+制作一段 30 秒动态图形短片，展现作为动态设计师出众的实力，就当做用于简历的个人作品集，请尽情发挥
+```
+
+<a id="motion-graphics-08"></a>
+### 8. A showcase film: technique first, then the feelings
+
+by [@rute1203d](https://x.com/rute1203d) · 146s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-08#motion-graphics-08)** · [Original post](https://x.com/rute1203d/status/2120077147872391540)
+
+Japanese prompt: you are one of the world's top video creators; show off your technique, then move the viewer. The author did not expect the turn in the second half.
+
+https://github.com/user-attachments/assets/c25fc8ca-af85-42fc-afd6-301dd48858f2
+
+**Prompt:**
+
+```text
+あなたが世界有数の動画クリエイターです...
+今の実力を見せつける最高の動画を作ってください
+技術をみせその後感動を見せる
+```
+
+<a id="motion-graphics-09"></a>
+### 9. "Show me the strongest video you can make"
+
+by [@suna_gaku](https://x.com/suna_gaku) · 89s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-09#motion-graphics-09)** · [Original post](https://x.com/suna_gaku/status/2119952985933697063)
+
+A one-line Japanese prompt. In an earlier post the author says the model started by composing the song, then built fractals, fluid and sound scenes around it.
+
+https://github.com/user-attachments/assets/265a9dcb-7304-430e-b8c2-d9a4680c0c03
+
+**Prompt:**
+
+```text
+今の実力を見せつける最強の動画を見せて
+```
+
+<a id="motion-graphics-10"></a>
+### 10. Rocket science for a high-school audience, in one shot
+
+by [@Hunter_Weiss](https://x.com/Hunter_Weiss) · 118s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-10#motion-graphics-10)** · [Original post](https://x.com/Hunter_Weiss/status/2119932937642946900)
+
+One prompt asks for the most shareable video about Fable 5.2 that explains rocket science at a high-school level. The result is two minutes of captioned diagrams.
+
+https://github.com/user-attachments/assets/74f751a4-8927-4248-b604-8d0160907c32
+
+**Prompt:**
+
+```text
+I need you to create the most impressive video I can share with people about Fable 5.2, explaining rocket science as if it were for someone with a high school education.
+```
+
+<a id="motion-graphics-11"></a>
+### 11. The pelican-on-a-bicycle test, drawn in SVG
+
+by [@leo114119](https://x.com/leo114119) · 31s · 2:1 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-11#motion-graphics-11)** · [Original post](https://x.com/leo114119/status/2119943368079802645)
+
+A Chinese prompt the author found on Bilibili: one HTML file with an SVG pelican riding a bicycle. Run on MAX, it came out natural and smooth, with less realistic detail than earlier attempts.
+
+https://github.com/user-attachments/assets/63884b16-478d-4912-95df-57364209c6c5
+
+**Prompt:**
+
+```text
+创建一个Html文件，使用svg 绘制一只鹈鹕骑自行车的动画
+```
+
+<a id="motion-graphics-12"></a>
+### 12. A traffic light on a one-way street, simulated in Python
+
+by [@diegocabezas01](https://x.com/diegocabezas01) · 26s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=motion-graphics-12#motion-graphics-12)** · [Original post](https://x.com/diegocabezas01/status/2119978348440866912)
+
+One sentence at High effort: cars arrive at a random rate and queue at the light, with a live chart of the queue. The author ran the same prompt on GPT-6 Astra and says both did a great job.
+
+https://github.com/user-attachments/assets/45de3523-a584-4c66-96aa-0d9284cdbeb2
+
+**Prompt:**
+
+```text
+write a python code that visualizes how a traffic light works in a one way street with cars entering at random rate.
+```
+
 <a id="product-launch"></a>
 ## 🚀 Launch and promo
 
-> Launch films and trailers, from a one-line "code only" brief to a project folder the model researches first. · 4 cases
+> Launch films and trailers, from a one-line "code only" brief to a project folder the model researches first. · 5 cases
 
 <a id="product-launch-01"></a>
-### 7. A 60-second launch film made with Opus 5.5 subagents
+### 13. A 60-second launch film made with Opus 5.5 subagents
 
 by [@grafikcem](https://x.com/grafikcem) · 60s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-01#product-launch-01)** · [Original post](https://x.com/grafikcem/status/2119910525064937806)
 
@@ -379,7 +482,7 @@ Bugün duyurulmana özel Fable 5.2 modeli için opus 5.5 subagentları kullanara
 ```
 
 <a id="product-launch-02"></a>
-### 8. "Make your own launch video. Code only."
+### 14. "Make your own launch video. Code only."
 
 by [@furkancavlakcom](https://x.com/furkancavlakcom) · 74s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-02#product-launch-02)** · [Original post](https://x.com/furkancavlakcom/status/2119896886345695521)
 
@@ -394,7 +497,7 @@ Kendi lansman videonu yap. Sadece kodla.
 ```
 
 <a id="product-launch-03"></a>
-### 9. A social trailer for a course, built with HyperFrames
+### 15. A social trailer for a course, built with HyperFrames
 
 by [@midudev](https://x.com/midudev) · 32s · 9:16 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-03#product-launch-03)** · [Original post](https://x.com/midudev/status/2119876297304203273)
 
@@ -411,7 +514,7 @@ Esfuerzo medio.
 ```
 
 <a id="product-launch-04"></a>
-### 10. A keynote-style promo film for a knowledge site, one prompt
+### 16. A keynote-style promo film for a knowledge site, one prompt
 
 by [@czzzzzzJ_](https://x.com/czzzzzzJ_) · 298s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-04#product-launch-04)** · [Original post](https://x.com/czzzzzzJ_/status/2120023093464682817)
 
@@ -425,13 +528,28 @@ https://github.com/user-attachments/assets/591923c2-ce88-4a12-a29b-0d834d5d0200
 你现在在我的知识站项目目录下，完整地调研我知识站上所有的业务、提供的内容，以及我的商业模式。使用 opuscar这个库帮我生成我的知识站宣传视频，整体风格我希望是像苹果的发布会那种风格质感。素材可以自行搜索和获取截屏。关于我不了解的内容，DOC 文件夹下有我的个人介绍。在整个宣传片制作前，你有一次向我提问的机会，收集我的想法，然后我要求你直接成片。
 ```
 
+<a id="product-launch-05"></a>
+### 17. A launch video for BlewUp, styled after a reference
+
+by [@wangray](https://x.com/wangray) · 19s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=product-launch-05#product-launch-05)** · [Original post](https://x.com/wangray/status/2120040640423850168)
+
+A one-line Chinese prompt: make a similar video for BlewUp in the style of this launch video. You bring the reference video and your own product.
+
+https://github.com/user-attachments/assets/a206b89f-5df7-44db-aca2-df94a0c86717
+
+**Prompt:**
+
+```text
+参考这个 launch video 风格给 BlewUp 做一个类似的视频
+```
+
 <a id="short-film"></a>
 ## 🎞️ Short film
 
-> Stories told in code: Blender anime, a Three.js UFO, a character animation and a wildlife hunt. · 4 cases
+> Stories told in code: Blender anime, a Three.js UFO, a wildlife hunt and a one-take tour of art history. · 6 cases
 
 <a id="short-film-01"></a>
-### 11. A steam locomotive that turns into a robot, as 2D anime
+### 18. A steam locomotive that turns into a robot, as 2D anime
 
 by [@0kncn](https://x.com/0kncn) · 90s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-01#short-film-01)** · [Original post](https://x.com/0kncn/status/2119901782482543073)
 
@@ -481,7 +599,7 @@ Before the final render a script tests every frame on the real meshes: no part o
 ```
 
 <a id="short-film-02"></a>
-### 12. A UFO lands at Area 51 and greets humans
+### 19. A UFO lands at Area 51 and greets humans
 
 by [@danteeonsol](https://x.com/danteeonsol) · 30s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-02#short-film-02)** · [Original post](https://x.com/danteeonsol/status/2119887623070077213)
 
@@ -496,7 +614,7 @@ make me a 30 second video of a UFO visiting Area 51 and greeting humans, ultra d
 ```
 
 <a id="short-film-03"></a>
-### 13. A little wizard creates and releases Fable 5.2
+### 20. A little wizard creates and releases Fable 5.2
 
 by [@other__reality](https://x.com/other__reality) · 26s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-03#short-film-03)** · [Original post](https://x.com/other__reality/status/2119885430627913784)
 
@@ -511,7 +629,7 @@ Create an animated video of clawd creating and releasing Claude Fable 5.2
 ```
 
 <a id="short-film-04"></a>
-### 14. A sabertooth cat hunts a bison, code only
+### 21. A sabertooth cat hunts a bison, code only
 
 by [@wshuyi](https://x.com/wshuyi) · 28s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-04#short-film-04)** · [Original post](https://x.com/wshuyi/status/2120014892040417720)
 
@@ -525,13 +643,43 @@ https://github.com/user-attachments/assets/768c8130-3fc8-40c6-843d-e396e450a89d
 不使用任何技能，做一段纯编程形成的动画视频：剑齿虎的捕猎。不用配音，你自己编程生成音效，时长控制在 30 秒以内
 ```
 
+<a id="short-film-05"></a>
+### 22. Human art history in one 60-second continuous shot
+
+by [@akokoi1](https://x.com/akokoi1) · 60s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-05#short-film-05)** · [Original post](https://x.com/akokoi1/status/2119986791474491817)
+
+A one-line Chinese prompt: a gripping 60-second film of human art history, in a single take. It runs from cave paintings to a starfield; the author found its taste a step above Opus 5.5.
+
+https://github.com/user-attachments/assets/3b66ed21-9f83-460b-928e-2120e6aa3d4b
+
+**Prompt:**
+
+```text
+做一个60秒的短片，展示人类艺术史，要求做到引人入胜，一镜到底。
+```
+
+<a id="short-film-06"></a>
+### 23. "936": a short film that counts the weekends of a life
+
+by [@thomaszhou_](https://x.com/thomaszhou_) · 102s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=short-film-06#short-film-06)** · [Original post](https://x.com/thomaszhou_/status/2120048570443395161)
+
+Chinese prompt: make a short film that will deeply affect the rest of my life. The result, titled 936, counts a life in weekends over 100 seconds.
+
+https://github.com/user-attachments/assets/417094f0-456c-4db5-9df9-42f25111e711
+
+**Prompt:**
+
+```text
+请制作一段视频短片，会深刻影响到我的余生。
+```
+
 <a id="3d-scenes"></a>
 ## • 3D scenes
 
-> Whole places built in Blender or Three.js and shown as a camera tour. · 2 cases
+> Places, objects and materials built in Blender, Three.js or WebGL: a city tour, a Raspberry Pi and real-time honey. · 4 cases
 
 <a id="3d-scenes-01"></a>
-### 15. An immersive 3D model of ancient Jerusalem in Blender
+### 24. An immersive 3D model of ancient Jerusalem in Blender
 
 by [@kplikethebird](https://x.com/kplikethebird) · 30s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=3d-scenes-01#3d-scenes-01)** · [Original post](https://x.com/kplikethebird/status/2119900775727902732)
 
@@ -546,7 +694,7 @@ Build an immersive, historically accurate 3D model of Jerusalem during the week 
 ```
 
 <a id="3d-scenes-02"></a>
-### 16. A floating voxel Paris of 1888, rendered frame by frame
+### 25. A floating voxel Paris of 1888, rendered frame by frame
 
 by [@RezAIT00](https://x.com/RezAIT00) · 14s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=3d-scenes-02#3d-scenes-02)** · [Original post](https://x.com/RezAIT00/status/2119894257519767656)
 
@@ -562,13 +710,43 @@ Build a single self-contained three.js HTML page that renders a 14-second animat
 Full credits go to @semichenkko for this prompt
 ```
 
+<a id="3d-scenes-03"></a>
+### 26. Photorealistic honey, simulated in WebGL
+
+by [@deedydas](https://x.com/deedydas) · 51s · 21:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=3d-scenes-03#3d-scenes-03)** · [Original post](https://x.com/deedydas/status/2119930300990177509)
+
+One sentence: the most intricate photorealistic honey simulation in the browser. The author says the video is a physics-based real-time render.
+
+https://github.com/user-attachments/assets/311f07ed-ec1c-4a08-aea0-31562cefdafb
+
+**Prompt:**
+
+```text
+Can you write the most intricate photorealistic simulation of honey in WebGL in the browser
+```
+
+<a id="3d-scenes-04"></a>
+### 27. A Raspberry Pi 5 that takes itself apart
+
+by [@sparklabhq](https://x.com/sparklabhq) · 6s · 1:1 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=3d-scenes-04#3d-scenes-04)** · [Original post](https://x.com/sparklabhq/status/2119917375080521921)
+
+Five words: animate a raspberry pi 5. Six seconds of the board breaking into parts and coming back together.
+
+https://github.com/user-attachments/assets/9a78be6c-cb7e-42ba-9e70-7c380e626f1a
+
+**Prompt:**
+
+```text
+animate a raspberry pi 5
+```
+
 <a id="games"></a>
 ## • Games
 
 > Playable Three.js games from one prompt, recorded while someone plays. · 2 cases
 
 <a id="games-01"></a>
-### 17. A one-shot 3D basketball game in Three.js
+### 28. A one-shot 3D basketball game in Three.js
 
 by [@joshvlc](https://x.com/joshvlc) · 19s · 21:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=games-01#games-01)** · [Original post](https://x.com/joshvlc/status/2119894656221958575)
 
@@ -591,7 +769,7 @@ Note: include sound effects and crowd cheering! You can use Blender (installed o
 ```
 
 <a id="games-02"></a>
-### 18. An open-world crime game in an 80s Miami-style city
+### 29. An open-world crime game in an 80s Miami-style city
 
 by [@ericmaskfr](https://x.com/ericmaskfr) · 135s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=games-02#games-02)** · [Original post](https://x.com/ericmaskfr/status/2119910195325481026)
 
@@ -611,7 +789,7 @@ you're a senior game dev. build a third-person open-world crime game in a sunny 
 > Scores written in LilyPond and lyric or shader films with music made in code. · 4 cases
 
 <a id="music-01"></a>
-### 19. A Bach-style chorale in G minor, written in LilyPond
+### 30. A Bach-style chorale in G minor, written in LilyPond
 
 by [@aug5thmusic](https://x.com/aug5thmusic) · 45s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-01#music-01)** · [Original post](https://x.com/aug5thmusic/status/2119879319426404780)
 
@@ -626,7 +804,7 @@ Prompt: “In LilyPond (version 2.24), write a 4-part chorale in the style of Ba
 ```
 
 <a id="music-02"></a>
-### 20. A Japanese lyric motion video from a song and its lyrics
+### 31. A Japanese lyric motion video from a song and its lyrics
 
 by [@takamasa045](https://x.com/takamasa045) · 53s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-02#music-02)** · [Original post](https://x.com/takamasa045/status/2120014216753262816)
 
@@ -641,7 +819,7 @@ https://github.com/user-attachments/assets/b6b6ebd6-6efd-42a5-82b4-d3d415c69ccc
 ```
 
 <a id="music-03"></a>
-### 21. From a point to a world: a shader film with a coded song
+### 32. From a point to a world: a shader film with a coded song
 
 by [@tankazunori0914](https://x.com/tankazunori0914) · 64s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-03#music-03)** · [Original post](https://x.com/tankazunori0914/status/2120012834461646927)
 
@@ -657,7 +835,7 @@ Fable 5.2の実力を見せつける動画を作成して。
 ```
 
 <a id="music-04"></a>
-### 22. A complete organ fugue in the style of Bach, in LilyPond
+### 33. A complete organ fugue in the style of Bach, in LilyPond
 
 by [@aug5thmusic](https://x.com/aug5thmusic) · 125s · 16:9 · **[▶ Run on APIKO](https://apiko.app/claude-fable-5-2-video-prompts?utm_source=github&utm_medium=case&utm_campaign=awesome-claude-fable-5.2-video-prompts&utm_content=music-04#music-04)** · [Original post](https://x.com/aug5thmusic/status/2119907891419480107)
 
